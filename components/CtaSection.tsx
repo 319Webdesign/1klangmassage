@@ -10,7 +10,7 @@ const quickInfos = [
 
 export function CtaSection() {
   return (
-    <section className="min-h-screen snap-start bg-sage-600 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24">
+    <section className="min-h-screen md:snap-start bg-sage-600 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24">
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
           {/* Links: Text & Buttons */}

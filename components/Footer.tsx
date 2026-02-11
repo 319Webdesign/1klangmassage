@@ -16,7 +16,7 @@ const legalLinks = [
 
 export function Footer() {
   return (
-    <footer className="mt-auto snap-start bg-black text-white">
+    <footer className="mt-auto md:snap-start bg-black text-white">
       <div className="mx-auto max-w-7xl px-4 py-12 md:px-8 md:py-16 lg:px-12">
         <div className="grid gap-8 border-b border-white/20 pb-10 text-center md:grid-cols-2 md:gap-10 md:text-left lg:grid-cols-4 lg:gap-12">
           {/* Spalte 1: Über 1klang */}

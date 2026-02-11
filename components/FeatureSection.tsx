@@ -43,7 +43,7 @@ export function FeatureSection() {
     <section
       ref={sectionRef}
       id="partnermassage"
-      className="min-h-screen snap-start overflow-hidden bg-sage-100 px-4 pt-20 pb-16 md:px-8 md:pt-28 md:pb-24 lg:px-12 xl:px-24"
+      className="min-h-screen md:snap-start overflow-hidden bg-sage-100 px-4 pt-20 pb-16 md:px-8 md:pt-28 md:pb-24 lg:px-12 xl:px-24"
     >
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">

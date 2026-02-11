@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <main className="flex-1 bg-sage-100">
         {/* Hero */}
-        <section className="relative flex min-h-screen snap-start flex-col-reverse items-center gap-10 overflow-hidden px-4 pt-0 pb-24 md:gap-12 md:px-8 md:pt-2 md:pb-32 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 lg:px-12 xl:px-24">
+        <section className="relative flex min-h-screen md:snap-start flex-col-reverse items-center gap-10 overflow-hidden px-4 pt-0 pb-24 md:gap-12 md:px-8 md:pt-2 md:pb-32 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 lg:px-12 xl:px-24">
           <div className="w-full max-w-xl text-center lg:max-w-3xl lg:justify-self-start lg:text-left">
             <h1 className="font-serif text-4xl font-semibold leading-tight text-brown-600 md:text-5xl lg:text-6xl">
               Ankommen. Aufatmen. Einklang finden
@@ -61,7 +61,7 @@ export default function Home() {
       {/* Über Mich */}
       <section
         id="ueber-mich"
-        className="min-h-screen snap-start bg-sage-100 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
+        className="min-h-screen md:snap-start bg-sage-100 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
       >
         <div className="mx-auto max-w-6xl">
 <h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
@@ -108,7 +108,7 @@ export default function Home() {
       {/* Kontakt */}
       <section
         id="kontakt"
-        className="min-h-0 snap-start bg-sage-100 px-4 py-12 md:min-h-screen md:px-8 md:py-24 lg:px-12 xl:px-24"
+        className="min-h-0 md:snap-start bg-sage-100 px-4 py-12 md:min-h-screen md:px-8 md:py-24 lg:px-12 xl:px-24"
       >
         <h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
           Kontakt

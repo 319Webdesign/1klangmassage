@@ -18,7 +18,7 @@ export function NewsletterSection() {
   return (
     <section
       id="newsletter"
-      className="min-h-0 snap-start bg-sage-100 px-4 py-12 md:min-h-screen md:px-8 md:py-24 lg:px-12 xl:px-24"
+      className="min-h-0 md:snap-start bg-sage-100 px-4 py-12 md:min-h-screen md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
       <div className="mx-auto max-w-2xl">
         <div className="flex justify-center">

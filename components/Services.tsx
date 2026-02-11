@@ -16,7 +16,7 @@ export function Services() {
   return (
     <section
       id="leistungen"
-      className="min-h-screen snap-start bg-white px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
+      className="min-h-screen md:snap-start bg-white px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
       <h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
         Leistungen
