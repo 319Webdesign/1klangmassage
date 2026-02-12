@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-padding-top: 4rem;
+}
+
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 4px 14px -2px rgb(247 166 0 / 0.3);
+  }
+}
+
+.animate-breathe {
+  animation: breathe 3s ease-in-out infinite;
+}
+
