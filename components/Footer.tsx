@@ -16,13 +16,18 @@ const legalLinks = [
 
 export function Footer() {
   return (
+<<<<<<< HEAD
     <footer className="mt-auto bg-footer-bg text-white">
+=======
+    <footer className="mt-auto bg-black text-white">
+>>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
       <div className="mx-auto max-w-7xl px-4 py-12 md:px-8 md:py-16 lg:px-12">
         <div className="grid gap-8 border-b border-white/20 pb-10 text-center md:grid-cols-2 md:gap-10 md:text-left lg:grid-cols-4 lg:gap-12">
           {/* Spalte 1: Über 1klang */}
           <div className="flex flex-col items-center space-y-4 border-b border-white/20 pb-8 md:items-start md:border-b-0 md:pb-0">
             <Link href="/" className="inline-flex items-center gap-2">
               <Image
+<<<<<<< HEAD
                 src="/img/logo.svg"
                 alt="1klang massage – Wellness & Entspannungsmassage Darmstadt Logo"
                 width={56}
@@ -32,6 +37,16 @@ export function Footer() {
               <span className="font-serif text-xl font-semibold">
                 <span className="text-white">1k</span>
                 <span className="text-white/90">lang massage</span>
+=======
+                src="/img/logo.jpg"
+                alt="1klang massage Logo"
+                width={44}
+                height={44}
+                className="h-11 w-11 rounded-full object-cover"
+              />
+              <span className="font-serif text-xl font-semibold text-white">
+                1klang massage
+>>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
               </span>
             </Link>
             <p className="font-serif text-lg italic text-white/90">
@@ -83,18 +98,30 @@ export function Footer() {
             </address>
             <div className="flex flex-col items-center gap-2 md:items-start">
               <a
+<<<<<<< HEAD
                 href="tel:+491637293772"
+=======
+                href="tel:+496151123456"
+>>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
                 className="flex items-center gap-2 text-sm text-white/80 transition-colors hover:text-gold-500 hover:underline"
               >
                 <Phone className="h-4 w-4 shrink-0" aria-hidden />
                 <span>Termin vereinbaren</span>
               </a>
               <a
+<<<<<<< HEAD
                 href="mailto:stefan@1klang-massage.de"
                 className="flex items-center gap-2 text-sm text-white/80 transition-colors hover:text-gold-500 hover:underline"
               >
                 <Mail className="h-4 w-4 shrink-0" aria-hidden />
                 <span>stefan@1klang-massage.de</span>
+=======
+                href="mailto:info@1klangmassage.de"
+                className="flex items-center gap-2 text-sm text-white/80 transition-colors hover:text-gold-500 hover:underline"
+              >
+                <Mail className="h-4 w-4 shrink-0" aria-hidden />
+                <span>info@1klangmassage.de</span>
+>>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
               </a>
             </div>
             <p className="text-sm text-white/70">
@@ -132,14 +159,22 @@ export function Footer() {
           </p>
           <div className="flex gap-4">
             <a
+<<<<<<< HEAD
               href="mailto:stefan@1klang-massage.de"
+=======
+              href="mailto:info@1klangmassage.de"
+>>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
               className="text-white/70 transition-colors hover:text-gold-500"
               aria-label="E-Mail an 1klang massage"
             >
               <Mail className="h-5 w-5" strokeWidth={1.5} />
             </a>
             <a
+<<<<<<< HEAD
               href="tel:+491637293772"
+=======
+              href="tel:+496151123456"
+>>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
               className="text-white/70 transition-colors hover:text-gold-500"
               aria-label="1klang massage anrufen"
             >

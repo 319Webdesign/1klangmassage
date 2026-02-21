@@ -9,6 +9,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
+<<<<<<< HEAD
   title: 'Wellness & Entspannungsmassage Darmstadt | 1klang massage',
   icons: {
     icon: '/img/logo.svg',
@@ -21,6 +22,11 @@ export const metadata: Metadata = {
       'Ihre Auszeit in Darmstadt: Professionelle Entspannungsmassagen, Klangmassagen und Wellness-Anwendungen bei Stefan Klemm. Jetzt Termin vereinbaren!',
     locale: 'de_DE',
   },
+=======
+  title: '1Klangmassage Darmstadt | Klangmassagen & Wellness',
+  description:
+    'Individuelle Klangmassagen und Wellness für Körper und Geist in Darmstadt. Ihr Weg zu innerer Ruhe – Termin vereinbaren.',
+>>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
 }
 
 export default function RootLayout({
@@ -29,7 +35,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+<<<<<<< HEAD
     <html lang="de" className={`${playfair.variable} scroll-smooth`}>
+=======
+    <html lang="de" className={playfair.variable}>
+>>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -42,7 +52,11 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
+<<<<<<< HEAD
       <body className="font-sans text-sm text-brown-500 antialiased">{children}</body>
+=======
+      <body className="font-sans text-brown-500 antialiased">{children}</body>
+>>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
     </html>
   )
 }
