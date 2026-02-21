@@ -27,9 +27,9 @@ export default function ImpressumPage() {
             <section>
               <h2 className="font-semibold text-brown-600">Kontakt</h2>
               <p className="mt-2">
-                E-Mail: info@1klangmassage.de
+                E-Mail: stefan@1klang-massage.de
                 <br />
-                Telefon: [Bitte ergänzen]
+                Telefon: 0163 7293772
               </p>
             </section>
             <section>

@@ -16,13 +16,13 @@ export function Services() {
   return (
     <section
       id="leistungen"
-      className="min-h-screen md:snap-start bg-white px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
+      className="min-h-screen bg-white px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
       <h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
-        Leistungen
+        Entspannungsmassage & Wellness in Darmstadt
       </h2>
-      <p className="mt-2 max-w-2xl text-brown-500/80">
-        Entdecken Sie unser Angebot an Massagen und Wellness-Behandlungen
+      <p className="mt-2 max-w-2xl text-base text-brown-500/80 md:text-lg">
+        Individuelle Wellnessmassage, Klangmassage und tiefenwirksame Entspannung – Ihr Angebot in Südhessen
       </p>
       <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {SERVICE_ITEMS.map((service) => (
@@ -37,7 +37,7 @@ export function Services() {
             <div className="relative aspect-[3/2] overflow-hidden bg-sage-100">
               <Image
                 src={getImageUrl(service)}
-                alt={service.title}
+                alt={`${service.title} – Wellness & Entspannungsmassage Darmstadt bei 1klang`}
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -49,17 +49,17 @@ export function Services() {
               )}
             </div>
             <div className="flex flex-1 flex-col p-6">
-              <h3 className="font-serif text-xl font-semibold text-brown-600">
+              <h3 className="font-serif text-2xl font-semibold text-brown-600">
                 {service.title}
               </h3>
-              <p className="mt-3 flex-1 text-sm leading-relaxed text-brown-500/90">
+              <p className="mt-3 flex-1 text-base leading-relaxed text-brown-500/90">
                 {service.description}
               </p>
               <div className="mt-4 space-y-1 rounded-lg bg-sage-50 px-4 py-3">
                 {service.priceOptions.map((opt) => (
                   <div
                     key={`${opt.duration}-${opt.price}`}
-                    className="flex items-center justify-between text-sm font-medium text-brown-600"
+                    className="flex items-center justify-between text-base font-medium text-brown-600"
                   >
                     <span>{opt.duration}</span>
                     <span className="font-bold">{opt.price}</span>
@@ -68,7 +68,7 @@ export function Services() {
               </div>
               <Link
                 href="#kontakt"
-                className="mt-5 block w-full rounded-full bg-gold-500 py-3 text-center font-medium text-white shadow-sm transition-colors hover:bg-gold-600 focus:outline-none focus:ring-2 focus:ring-gold-500 focus:ring-offset-2"
+                className="mt-5 block w-full rounded-full bg-gold-500 py-3 text-center text-base font-medium text-white shadow-sm transition-colors hover:bg-gold-600 focus:outline-none focus:ring-2 focus:ring-gold-500 focus:ring-offset-2"
               >
                 Jetzt buchen
               </Link>
