@@ -21,11 +21,7 @@ export default function DatenschutzPage() {
                 <br />
                 64289 Darmstadt
                 <br />
-<<<<<<< HEAD
-                E-Mail: stefan@1klang-massage.de
-=======
-                E-Mail: info@1klangmassage.de
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
+E-Mail: stefan@1klang-massage.de
               </p>
             </section>
             <section>

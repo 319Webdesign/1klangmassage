@@ -20,11 +20,7 @@ export function NewsletterSection() {
       id="newsletter"
       className="min-h-0 bg-sage-100 px-4 py-12 md:min-h-screen md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
-<<<<<<< HEAD
       <div className="mx-auto max-w-3xl">
-=======
-      <div className="mx-auto max-w-2xl">
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
         <div className="flex justify-center">
           <div className="relative flex h-14 w-14 items-center justify-center rounded-full bg-white/80 shadow-sm">
             <Mail className="h-6 w-6 text-sage-600" strokeWidth={1.5} />
@@ -32,19 +28,12 @@ export function NewsletterSection() {
           </div>
         </div>
 
-<<<<<<< HEAD
         <h2 className="mt-6 text-center font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
           Nichts mehr verpassen
           <br />
           <span className="text-2xl md:text-3xl lg:text-4xl">– Ihr Weg zu exklusiven Wohlfühlmomenten.</span>
         </h2>
         <p className="mt-4 text-center text-base text-brown-500/90 leading-relaxed md:text-lg">
-=======
-        <h2 className="mt-6 text-center font-serif text-2xl font-semibold text-brown-600 md:text-3xl">
-          Nichts mehr verpassen – Ihr Weg zu exklusiven Wohlfühlmomenten.
-        </h2>
-        <p className="mt-4 text-center text-brown-500/90 leading-relaxed">
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
           Melden Sie sich für meinen kostenlosen Newsletter an und erhalten Sie
           Tipps zur Entspannung sowie Informationen zu neuen Angeboten und freien
           Terminen in Darmstadt.

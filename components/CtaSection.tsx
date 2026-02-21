@@ -10,15 +10,9 @@ const quickInfos = [
 
 export function CtaSection() {
   return (
-<<<<<<< HEAD
     <section className="bg-sage-600 px-4 py-12 md:px-8 md:py-16 lg:px-12 xl:px-24">
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-start lg:gap-12">
-=======
-    <section className="min-h-screen bg-sage-600 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24">
-      <div className="mx-auto max-w-6xl">
-        <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
           {/* Links: Text & Buttons */}
           <div className="text-white">
             <h2 className="font-serif text-3xl font-semibold leading-tight md:text-4xl lg:text-5xl">
@@ -49,7 +43,6 @@ export function CtaSection() {
             <div className="flex flex-col items-center gap-6 lg:items-end">
               <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:gap-4 lg:flex-col lg:items-end">
                 <Image
-<<<<<<< HEAD
                   src="/img/Klemm_Stefan.jpg"
                   alt="Stefan Klemm – Experte für Entspannungsmassage und Wellness in Darmstadt"
                   width={120}
@@ -59,16 +52,6 @@ export function CtaSection() {
                 />
                 <span className="rounded-full bg-white/95 px-4 py-2 text-sm font-medium text-sage-700 shadow-sm">
                   Experte für Wellness und Entspannung
-=======
-                  src="/img/Stefan-Portrait.jpg"
-                  alt="Stefan Klemm"
-                  width={120}
-                  height={120}
-                  className="rounded-full object-cover ring-4 ring-white/30"
-                />
-                <span className="rounded-full bg-white/95 px-4 py-2 text-sm font-medium text-sage-700 shadow-sm">
-                  Ihr Experte für Klang & Wellness
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
                 </span>
               </div>
               <ul className="flex flex-col gap-3 text-white/95">
@@ -80,11 +63,7 @@ export function CtaSection() {
                     <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/20">
                       <Icon className="h-4 w-4" strokeWidth={2} />
                     </span>
-<<<<<<< HEAD
                     <span className="text-base font-medium">{text}</span>
-=======
-                    <span className="text-sm font-medium">{text}</span>
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
                   </li>
                 ))}
               </ul>

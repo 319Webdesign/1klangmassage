@@ -1,27 +1,18 @@
 import Image from 'next/image'
-<<<<<<< HEAD
 import { Header } from '@/components/Header'
 import { LocalBusinessJsonLd } from '@/components/JsonLd'
 import { HeroTestimonial } from '@/components/HeroTestimonial'
-=======
-import { Quote, MapPin } from 'lucide-react'
-import { Header } from '@/components/Header'
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
 import { FeatureSection } from '@/components/FeatureSection'
 import { Services } from '@/components/Services'
 import { CtaSection } from '@/components/CtaSection'
 import { NewsletterSection } from '@/components/NewsletterSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
-<<<<<<< HEAD
 import { FaqSection } from '@/components/FaqSection'
-=======
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
 import { Footer } from '@/components/Footer'
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
-<<<<<<< HEAD
       <LocalBusinessJsonLd />
       <Header />
       <main className="flex-1 bg-sage-100">
@@ -34,16 +25,6 @@ export default function Home() {
             <p className="mt-4 text-xl font-medium text-sage-600 md:text-2xl">
               Ihr Experte für Entspannung und Wohlbefinden in Darmstadt
             </p>
-=======
-      <Header />
-      <main className="flex-1 bg-sage-100">
-        {/* Hero */}
-        <section className="relative flex min-h-screen flex-col-reverse items-center gap-10 overflow-hidden px-4 pt-0 pb-24 md:gap-12 md:px-8 md:pt-2 md:pb-32 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 lg:px-12 xl:px-24">
-          <div className="w-full max-w-xl text-center lg:max-w-3xl lg:justify-self-start lg:text-left">
-            <h1 className="font-serif text-4xl font-semibold leading-tight text-brown-600 md:text-5xl lg:text-6xl">
-              Ankommen. Aufatmen. Einklang finden
-            </h1>
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
             <p className="mt-6 text-lg leading-relaxed text-brown-500/90">
               Erleben Sie individuelle Massagen, die Körper und Geist sanft in Balance bringen – persönlich auf Ihre Bedürfnisse abgestimmt.
             </p>
@@ -53,31 +34,12 @@ export default function Home() {
           >
               Termin vereinbaren
             </a>
-<<<<<<< HEAD
 <HeroTestimonial />
           </div>
           <div className="relative mx-auto mt-12 aspect-[4/5] w-full max-w-[320px] overflow-hidden rounded-2xl shadow-2xl md:max-w-[400px] md:mt-16 lg:mt-12 lg:max-w-[420px]">
             <Image
               src="/img/Klemm_Stefan.jpg"
               alt="Wellness Massage in Darmstadt bei 1klang – Stefan Klemm, Ihr Experte für Entspannungsmassage"
-=======
-<blockquote className="mt-12 flex justify-center gap-3 rounded-xl bg-white/60 p-4 shadow-sm lg:justify-start">
-            <Quote className="h-8 w-8 shrink-0 text-sage-400" aria-hidden />
-            <div>
-              <p className="text-sm italic text-brown-500/90">
-                Nach jeder Sitzung fühle ich mich wie neu geboren
-              </p>
-              <cite className="mt-2 block text-sm not-italic text-sage-600">
-                  Anna M., Darmstadt
-                </cite>
-              </div>
-            </blockquote>
-          </div>
-          <div className="relative mx-auto mt-12 aspect-[4/5] w-full max-w-[320px] overflow-hidden rounded-2xl shadow-2xl md:max-w-[400px] md:mt-16 lg:mt-12 lg:max-w-[420px]">
-            <Image
-              src="/img/Stefan-Portrait.jpg"
-              alt="Stefan Klemm – 1klang massage Darmstadt"
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
@@ -105,19 +67,11 @@ export default function Home() {
             <div className="space-y-4 text-lg leading-relaxed text-brown-500/90 md:text-xl">
               <p>
                 Seit über 15 Jahren massiere ich bereits mit Leidenschaft und bilde
-<<<<<<< HEAD
                 mich regelmäßig fort – für tiefenwirksame Entspannung in Südhessen.
                 Im Dezember 2015 habe ich vertiefend die Rücken-Nacken-Massage-Ausbildung
                 bei Satyadevi Bretz im Yoga Vidya-Zentrum in Bad Meinberg absolviert,
                 im April 2016 und im Februar 2017 die Kalifornische Massage-Ausbildung
                 bei Eric vis Dieperink und Sabine Goldbach im Yoga Vidya-Zentrum Westerwald.
-=======
-                mich regelmäßig fort. Im Dezember 2015 habe ich vertiefend die
-                Rücken-Nacken-Massage-Ausbildung bei Satyadevi Bretz im Yoga
-                Vidya-Zentrum in Bad Meinberg absolviert, im April 2016 und im
-                Februar 2017 die Kalifornische Massage-Ausbildung bei Eric vis
-                Dieperink und Sabine Goldbach im Yoga Vidya-Zentrum Westerwald.
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
               </p>
               <p>
                 Im Frühjahr 2020 war ich Assistent bei der Kalifornischen
@@ -126,30 +80,18 @@ export default function Home() {
                 meine Kenntnisse der Kalifornischen Massage aufgefrischt.
               </p>
               <blockquote className="mt-6 rounded-xl border-l-4 border-orange-500 bg-white/60 p-5 italic text-brown-600 shadow-sm">
-<<<<<<< HEAD
                 „Mein Ziel bei 1klang massage ist es, Ihnen durch achtsame Massage mit
                 Klangschalen zu tiefenwirksamer Entspannung und Wohlbefinden zu verhelfen –
                 Ihre Wellness-Oase in Darmstadt."
-=======
-                „Mein Ziel bei 1klang massage ist es, Ihnen durch achtsame Massage zu
-                Wohlbefinden zu verhelfen und Sie in Einklang zu bringen."
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
               </blockquote>
             </div>
             <div className="relative overflow-hidden rounded-2xl shadow-xl">
               <Image
-<<<<<<< HEAD
                 src="/img/Klemm_Stefan.jpg"
                 alt="Wellness Massage in Darmstadt bei 1klang – Stefan Klemm, Ihr Experte für Entspannungsmassage"
                 width={600}
                 height={400}
                 sizes="(max-width: 1024px) 100vw, 50vw"
-=======
-                src="/img/Stefan-Portrait.jpg"
-                alt="Stefan Klemm – 1klang massage Darmstadt"
-                width={600}
-                height={400}
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
                 className="h-auto w-full object-cover"
               />
             </div>
@@ -216,25 +158,7 @@ export default function Home() {
           </form>
 
           <div>
-<<<<<<< HEAD
             <div className="aspect-video overflow-hidden rounded-xl shadow-md">
-=======
-            <address className="not-italic">
-              <div className="flex items-start gap-3">
-                <MapPin
-                  className="mt-1 h-5 w-5 shrink-0 text-sage-500"
-                  aria-hidden
-                />
-                <div className="text-brown-500/90">
-                  <p className="font-medium text-brown-600">1Klangmassage</p>
-                  <p>Stefan Klemm</p>
-                  <p className="mt-2">Carsonweg 1</p>
-                  <p>64289 Darmstadt</p>
-                </div>
-              </div>
-            </address>
-            <div className="mt-8 aspect-video overflow-hidden rounded-xl shadow-md">
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2569.9863744658833!2d8.669361676025952!3d49.89905912691229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd71b8e92621cb%3A0x94de1bc7109166c8!2s1klang%20massage%20Stefan%20Klemm!5e0!3m2!1sde!2sde!4v1770842813517!5m2!1sde!2sde"
                 width="100%"
@@ -250,11 +174,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-<<<<<<< HEAD
 
       <FaqSection />
-=======
->>>>>>> 80d5e21c9bf1ef0cf0d233d5f7ea1c602f51b0dd
       </main>
 
       <Footer />
