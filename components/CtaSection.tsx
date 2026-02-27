@@ -43,7 +43,7 @@ export function CtaSection() {
             <div className="flex flex-col items-center gap-6 lg:items-end">
               <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:gap-4 lg:flex-col lg:items-end">
                 <Image
-                  src="/img/Klemm_Stefan.jpg"
+                  src="/img/budda.jpg"
                   alt="Stefan Klemm – Experte für Entspannungsmassage und Wellness in Darmstadt"
                   width={120}
                   height={120}
