@@ -6,10 +6,10 @@ import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 
 const navLinks = [
-  { href: '#leistungen', label: 'Leistungen' },
-  { href: '#ueber-mich', label: 'Über mich' },
-  { href: '#kundenstimmen', label: 'Kundenstimmen' },
-  { href: '#kontakt', label: 'Kontakt' },
+  { href: '/#leistungen', label: 'Leistungen' },
+  { href: '/#ueber-mich', label: 'Über mich' },
+  { href: '/#kundenstimmen', label: 'Kundenstimmen' },
+  { href: '/#kontakt', label: 'Kontakt' },
 ]
 
 export function Header() {

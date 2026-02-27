@@ -20,7 +20,7 @@ export default function Home() {
         <section className="relative flex min-h-screen flex-col-reverse items-center gap-10 overflow-hidden px-4 pt-8 pb-24 md:gap-12 md:px-8 md:pt-10 md:pb-32 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 lg:pt-12 lg:px-12 xl:px-24">
           <div className="w-full max-w-xl text-center lg:max-w-3xl lg:justify-self-start lg:text-left">
             <h1 className="font-serif text-4xl font-semibold leading-tight text-brown-600 md:text-5xl lg:text-6xl">
-              Wellness & Entspannungsmassage in Darmstadt
+              Entspannungs- & Wellnessmassagen in Darmstadt
             </h1>
             <p className="mt-4 text-xl font-medium text-sage-600 md:text-2xl">
               Ihr Experte für Entspannung und Wohlbefinden in Darmstadt
@@ -80,9 +80,9 @@ export default function Home() {
                 meine Kenntnisse der Kalifornischen Massage aufgefrischt.
               </p>
               <blockquote className="mt-6 rounded-xl border-l-4 border-orange-500 bg-white/60 p-5 italic text-brown-600 shadow-sm">
-                „Mein Ziel bei 1klang massage ist es, Ihnen durch achtsame Massage mit
-                Klangschalen zu tiefenwirksamer Entspannung und Wohlbefinden zu verhelfen –
-                Ihre Wellness-Oase in Darmstadt."
+                „Mein Ziel bei 1klang massage ist es,
+                Ihnen durch achtsame Massage zu Wohlbefinden zu verhelfen und
+                Sie in Einklang zu bringen."
               </blockquote>
             </div>
             <div className="relative overflow-hidden rounded-2xl shadow-xl">

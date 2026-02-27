@@ -71,7 +71,7 @@ export const SERVICE_ITEMS: ServiceItem[] = [
   },
   {
     id: 'individuelle-wellness',
-    title: 'Individuelle Wellness',
+    title: 'Individuelle Wellnessmassagen',
     description:
       'Maßgeschneidert auf Ihre Wünsche: Kopf, Hände, Füße oder Körpereinheiten – genau das, was Sie brauchen.',
     priceOptions: [{ duration: '60 Min', price: '70 €' }],

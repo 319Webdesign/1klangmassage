@@ -15,8 +15,6 @@ export default function ImpressumPage() {
             <section>
               <h2 className="font-semibold text-brown-600">Angaben gemäß § 5 TMG</h2>
               <p className="mt-2">
-                1klang massage
-                <br />
                 Stefan Klemm
                 <br />
                 Carsonweg 1
@@ -27,19 +25,45 @@ export default function ImpressumPage() {
             <section>
               <h2 className="font-semibold text-brown-600">Kontakt</h2>
               <p className="mt-2">
-E-Mail: stefan@1klang-massage.de
+                Telefon:{' '}
+                <a href="tel:+491637293772" className="text-orange-500 hover:underline">
+                  0163 7293772
+                </a>
                 <br />
-                Telefon: 0163 7293772
+                E-Mail:{' '}
+                <a href="mailto:stefan@1klang-massage.de" className="text-orange-500 hover:underline">
+                  stefan@1klang-massage.de
+                </a>
               </p>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">Verantwortlich für den Inhalt</h2>
+              <h2 className="font-semibold text-brown-600">Mitgliedschaft & Versicherung</h2>
+              <p className="mt-2">
+                Mitglied der Berufsgenossenschaft für Gesundheitsdienst und Wohlfahrtspflege (BGW)
+                <br />
+                <br />
+                Betriebshaftpflichtversicherung bei Volkswohl Bund Sachversicherung AG
+                <br />
+                Südwall 37–41, 44137 Dortmund
+              </p>
+            </section>
+            <section>
+              <h2 className="font-semibold text-brown-600">Redaktionell verantwortlich</h2>
               <p className="mt-2">
                 Stefan Klemm
                 <br />
                 Carsonweg 1
                 <br />
                 64289 Darmstadt
+              </p>
+            </section>
+            <section>
+              <h2 className="font-semibold text-brown-600">
+                Verbraucherstreitbeilegung / Universalschlichtungsstelle
+              </h2>
+              <p className="mt-2">
+                Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+                Verbraucherschlichtungsstelle teilzunehmen.
               </p>
             </section>
             <p className="text-sm text-brown-500/70">

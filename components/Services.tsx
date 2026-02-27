@@ -19,10 +19,10 @@ export function Services() {
       className="min-h-screen bg-white px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
       <h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
-        Entspannungsmassage & Wellness in Darmstadt
+        Entspannungs- & Wellnessmassagen in Darmstadt
       </h2>
       <p className="mt-2 max-w-2xl text-base text-brown-500/80 md:text-lg">
-        Individuelle Wellnessmassage, Klangmassage und tiefenwirksame Entspannung – Ihr Angebot in Südhessen
+        Individuelle Wellnessmassagen und tiefenwirksame Entspannung
       </p>
       <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {SERVICE_ITEMS.map((service) => (

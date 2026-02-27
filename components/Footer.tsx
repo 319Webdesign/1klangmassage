@@ -1,13 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Phone, Mail, MapPin } from 'lucide-react'
+import { SERVICE_ITEMS } from '@/lib/services-data'
 
-const serviceLinks = [
-  { href: '#leistungen', label: 'Klangmassage' },
-  { href: '#leistungen', label: 'Rücken-Nacken-Massage' },
-  { href: '#leistungen', label: 'Partnermassagekurs' },
-  { href: '#leistungen', label: 'Fußmassage' },
-]
+const serviceLinks = SERVICE_ITEMS.map((service) => ({
+  href: '/#leistungen',
+  label: service.title,
+}))
 
 const legalLinks = [
   { href: '/impressum', label: 'Impressum' },
@@ -38,8 +37,8 @@ export function Footer() {
               Ankommen. Aufatmen. Einklang finden.
             </p>
             <p className="text-sm leading-relaxed text-white/80">
-              Individuelle Massagen und Wellness in Darmstadt – persönlich auf
-              Ihre Bedürfnisse abgestimmt.
+              Individuelle Wellnessmassagen in Darmstadt – persönlich auf Ihre
+              Bedürfnisse abgestimmt.
             </p>
           </div>
 
@@ -119,16 +118,13 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-            <p className="text-xs text-white/60">
-              Ausgebildeter Masseur – regelmäßige Fortbildung
-            </p>
           </div>
         </div>
 
         {/* Untere Leiste */}
         <div className="flex flex-col items-center gap-4 pt-8 md:flex-row md:justify-between">
           <p className="text-center text-sm text-white/70 md:text-left">
-            © 2026 1klang massage – Stefan Klemm. Handgefertigt in Südhessen.
+            © 2026 1klang massage – Stefan Klemm. Handarbeit in Südhessen
           </p>
           <div className="flex gap-4">
             <a
