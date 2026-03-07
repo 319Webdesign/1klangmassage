@@ -7,7 +7,7 @@ export const FAQ_ITEMS = [
   {
     question: 'Wo finde ich Wellness in Darmstadt?',
     answer:
-      '1klang massage in Darmstadt-Carsonweg bietet professionelle Wellness-Anwendungen: Klangmassage, Kalifornische Massage, Rücken-Nacken-Massage und Partnermassagekurse. Ihr Experte für Entspannung und Wohlbefinden in Südhessen.',
+      '1klang massage in Darmstadt bietet professionelle Wellness-Massagen: Kalifornische Massage, Rücken-Nacken-Massage, Breuss-Massage, individuelle Wellnessmassage und Partnermassagekurse. 1klang massage – Ihr Experte für Entspannung und Wohlbefinden in Südhessen.',
   },
   {
     question: 'Wir freuen uns auf Ihre Anfrage!',

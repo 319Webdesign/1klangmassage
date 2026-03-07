@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Webpack-Cache deaktivieren (verhindert Chunk-Fehler "Cannot find module './XXX.js'" unter Windows/Dev)
+  webpack: (config, { dev }) => {
+    if (dev) config.cache = false
+    return config
+  },
   images: {
     remotePatterns: [
       {

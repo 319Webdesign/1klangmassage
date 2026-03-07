@@ -56,7 +56,7 @@ const config: Config = {
       },
       fontFamily: {
         serif: ['var(--font-playfair)', 'Georgia', 'serif'],
-        sans: ['Source Sans Pro', 'system-ui', 'sans-serif'],
+        sans: ['Source Sans 3', 'Source Sans Pro', 'system-ui', 'sans-serif'],
       },
     },
   },

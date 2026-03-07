@@ -9,6 +9,7 @@ import { NewsletterSection } from '@/components/NewsletterSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
 import { FaqSection } from '@/components/FaqSection'
 import { Footer } from '@/components/Footer'
+import { ContactForm } from '@/components/ContactForm'
 
 export default function Home() {
   return (
@@ -112,50 +113,7 @@ export default function Home() {
           Kontakt
         </h2>
         <div className="mt-5 grid gap-12 lg:grid-cols-2">
-          <form
-            action="#"
-            method="post"
-            className="flex flex-col gap-4"
-          >
-            <label htmlFor="name" className="sr-only">
-              Name
-            </label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              placeholder="Name"
-              required
-              className="rounded-lg border border-sage-200 bg-white px-4 py-3 text-brown-500 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-1 focus:ring-sage-400"
-            />
-            <label htmlFor="email" className="sr-only">
-              E-Mail
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              placeholder="E-Mail"
-              required
-              className="rounded-lg border border-sage-200 bg-white px-4 py-3 text-brown-500 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-1 focus:ring-sage-400"
-            />
-            <label htmlFor="message" className="sr-only">
-              Nachricht
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows={4}
-              placeholder="Nachricht"
-              className="rounded-lg border border-sage-200 bg-white px-4 py-3 text-brown-500 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-1 focus:ring-sage-400"
-            />
-            <button
-              type="submit"
-              className="w-fit rounded-full bg-orange-500 px-8 py-3 font-medium text-white transition-colors hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2"
-            >
-              Nachricht senden
-            </button>
-          </form>
+          <ContactForm />
 
           <div>
             <div className="aspect-video overflow-hidden rounded-xl shadow-md">

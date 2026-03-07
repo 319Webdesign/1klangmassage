@@ -5,17 +5,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "clean": "node -e \"const f=require('fs');['.next','node_modules/.cache'].forEach(p=>{try{f.rmSync(p,{recursive:true,force:true});console.log('Geloescht:',p)}catch(e){}})\"",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "lucide-react": "^0.454.0",
     "next": "^14.2.0",
+    "nodemailer": "^8.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "lucide-react": "^0.454.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/nodemailer": "^7.0.11",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.19",

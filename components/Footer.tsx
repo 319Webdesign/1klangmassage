@@ -11,6 +11,7 @@ const serviceLinks = SERVICE_ITEMS.map((service) => ({
 const legalLinks = [
   { href: '/impressum', label: 'Impressum' },
   { href: '/datenschutz', label: 'Datenschutz' },
+  { href: '/cookie-richtlinien', label: 'Cookie-Richtlinien' },
 ]
 
 export function Footer() {
