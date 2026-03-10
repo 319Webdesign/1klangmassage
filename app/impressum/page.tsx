@@ -13,7 +13,7 @@ export default function ImpressumPage() {
           </h1>
           <div className="mt-8 space-y-6 text-brown-500/90">
             <section>
-              <h2 className="font-semibold text-brown-600">Angaben gemäß § 5 TMG</h2>
+              <h2 className="font-semibold text-brown-600">Angaben gemäß § 5 DDG</h2>
               <p className="mt-2">
                 Stefan Klemm
                 <br />
