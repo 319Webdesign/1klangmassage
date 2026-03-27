@@ -1,16 +1,6 @@
 import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
-const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: parseInt(process.env.SMTP_PORT || '465', 10),
-  secure: true,
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
-  },
-})
-
 export async function POST(request: Request) {
   try {
     const formData = await request.formData()
@@ -25,11 +15,28 @@ export async function POST(request: Request) {
       )
     }
 
+    const transporter = nodemailer.createTransport({
+      host: 'ha01s013.org-dns.com',
+      port: 465,
+      secure: true,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+      tls: {
+        servername: 'ha01s013.org-dns.com',
+        rejectUnauthorized: false,
+        ciphers: 'SSLv3',
+      },
+    })
+
+    await transporter.verify()
+
     const mailOptions = {
-      from: `"1klang massage Website" <${process.env.SMTP_USER}>`,
-      to: process.env.SMTP_USER,
+      from: '"1klang massage" <stefan@1klang-massage.de>',
+      to: 'stefan@1klang-massage.de',
       replyTo: email,
-      subject: `Kontaktanfrage von ${name}`,
+      subject: `Neue Kontaktanfrage von ${name} - 1klang massage`,
       text: `Name: ${name}\nE-Mail: ${email}\n\nNachricht:\n${message}`,
       html: `
         <h2>Neue Kontaktanfrage</h2>
@@ -44,9 +51,10 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ success: true })
   } catch (error) {
-    console.error('E-Mail-Fehler:', error)
+    const message = error instanceof Error ? error.message : String(error)
+    console.error('E-Mail-Fehler detailliert:', message)
     return NextResponse.json(
-      { error: 'Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später erneut.' },
+      { error: 'Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später erneut.', details: message },
       { status: 500 }
     )
   }

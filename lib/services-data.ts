@@ -65,7 +65,10 @@ export const SERVICE_ITEMS: ServiceItem[] = [
     title: 'Fußmassage',
     description:
       'Entspannung pur: Reflexzonenarbeit und wohltuende Griffe für müde Füße. Ein Geschenk an sich selbst.',
-    priceOptions: [{ duration: '30 Min', price: '40 €' }],
+    priceOptions: [
+      { duration: '30 Min', price: '40 €' },
+      { duration: '45 Min', price: '55 €' },
+    ],
     imageId: '1568575580762-1a2b3c4d5e6f',
     image: '/img/fussmassage.png',
   },
