@@ -2,7 +2,7 @@ export const FAQ_ITEMS = [
   {
     question: 'Was bietet eine Entspannungsmassage?',
     answer:
-      'Eine Entspannungsmassage bei 1klang massage in Darmstadt bringt Körper und Geist in Balance. Mit sanften Griffen, Klangschalen und achtsamen Techniken lösen wir Verspannungen und schenken Ihnen tiefenwirksame Entspannung – maßgeschneidert auf Ihre Bedürfnisse.',
+      'Eine Entspannungsmassage bei 1klang massage in Darmstadt bringt Körper und Geist in Balance. Mit sanften Griffen und achtsamen Techniken lösen wir Verspannungen und schenken Ihnen tiefenwirksame Entspannung – maßgeschneidert auf Ihre Bedürfnisse.',
   },
   {
     question: 'Wo finde ich Wellness in Darmstadt?',
