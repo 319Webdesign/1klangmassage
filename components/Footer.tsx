@@ -147,7 +147,7 @@ export function Footer() {
         <p className="pb-4 pt-6 text-center text-sm text-white/60">
           Designed by{' '}
           <a
-            href="https://319webdesign.com"
+            href="https://www.319webdesign.de/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium text-sage-400 transition-colors hover:text-sage-300"
