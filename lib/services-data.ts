@@ -34,7 +34,7 @@ export const SERVICE_ITEMS: ServiceItem[] = [
       { duration: '45 Min', price: '55 €' },
     ],
     imageId: '1544161512-6f4e8e2d8a9b',
-    image: '/img/ruecken-nacken-massage.png',
+    image: '/img/ruecken-nacken-massage-neu.png',
   },
   {
     id: 'kalifornische-massage',
@@ -70,7 +70,7 @@ export const SERVICE_ITEMS: ServiceItem[] = [
       { duration: '45 Min', price: '55 €' },
     ],
     imageId: '1568575580762-1a2b3c4d5e6f',
-    image: '/img/fussmassage.png',
+    image: '/img/fussmassage-neu.png',
   },
   {
     id: 'individuelle-wellness',

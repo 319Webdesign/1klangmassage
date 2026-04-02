@@ -118,7 +118,7 @@ export function FeatureSection() {
             }`}
           >
             <Image
-              src="/img/partnermassage.png"
+              src="/img/partnermassage-neu.png"
               alt="Partnermassagekurs Darmstadt – Wellness zu zweit bei 1klang massage"
               width={600}
               height={700}

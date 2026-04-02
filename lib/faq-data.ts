@@ -7,7 +7,7 @@ export const FAQ_ITEMS = [
   {
     question: 'Wo finde ich Wellness in Darmstadt?',
     answer:
-      '1klang massage in Darmstadt bietet professionelle Wellness-Massagen in angenehmem Ambiente im Carsonweg 1 in 64289 Kranichstein: Kalifornische Massage, Rücken-Nacken-Massage, Breuss-Massage, individuelle Wellnessmassage und Partnermassagekurse. 1klang massage – Ihr Experte für Entspannung und Wohlbefinden in Südhessen.',
+      '1klang massage in Darmstadt bietet professionelle Wellness-Massagen in angenehmem Ambiente im Carsonweg 1 in 64289 Darmstadt-Kranichstein: Kalifornische Massage, Rücken-Nacken-Massage, Breuss-Massage, individuelle Wellnessmassage und Partnermassagekurse. <br> 1klang massage – Ihr Experte für Entspannung und Wohlbefinden in Darmstadt.',
   },
   {
     question: 'Wir freuen uns auf Ihre Anfrage!',
