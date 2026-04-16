@@ -6,6 +6,7 @@ import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 
 const navLinks = [
+  { href: '/aktuelles', label: 'Aktuelles' },
   { href: '/#leistungen', label: 'Leistungen' },
   { href: '/#ueber-mich', label: 'Über mich' },
   { href: '/#kundenstimmen', label: 'Kundenstimmen' },
