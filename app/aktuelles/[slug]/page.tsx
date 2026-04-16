@@ -4,7 +4,7 @@ import { PortableText, type PortableTextBlock } from '@portabletext/react'
 import { groq } from 'next-sanity'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { sanityClient } from '@/lib/sanity.client'
+import { isSanityConfigured, sanityClient } from '@/lib/sanity.client'
 import { urlFor } from '@/sanity/lib/image'
 
 export const revalidate = 60
@@ -57,6 +57,10 @@ function getImageUrl(image: unknown, width: number, height: number) {
 }
 
 export async function generateStaticParams() {
+  if (!isSanityConfigured || !sanityClient) {
+    return []
+  }
+
   const posts = await sanityClient.fetch<PostSlug[]>(slugsQuery)
   return posts.map((post) => ({ slug: post.slug }))
 }
@@ -67,6 +71,10 @@ export default async function AktuellesDetailPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
+
+  if (!isSanityConfigured || !sanityClient) {
+    notFound()
+  }
 
   const post = await sanityClient.fetch<PostDetail | null>(postBySlugQuery, { slug })
 

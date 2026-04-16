@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { groq } from 'next-sanity'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { sanityClient } from '@/lib/sanity.client'
+import { isSanityConfigured, sanityClient } from '@/lib/sanity.client'
 
 export const revalidate = 60
 
@@ -29,7 +29,10 @@ function formatDate(dateString: string) {
 }
 
 export default async function AktuellesPage() {
-  const posts = await sanityClient.fetch<PostListItem[]>(postsQuery)
+  const posts =
+    isSanityConfigured && sanityClient
+      ? await sanityClient.fetch<PostListItem[]>(postsQuery)
+      : []
 
   return (
     <div className="flex min-h-screen flex-col bg-sage-100">
