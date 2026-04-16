@@ -8,12 +8,32 @@
  */
 
 import { NextStudio } from 'next-sanity/studio'
-import config from '../../../sanity.config'
 
 export const dynamic = 'force-static'
 
 export { metadata, viewport } from 'next-sanity/studio'
 
-export default function StudioPage() {
+export default async function StudioPage() {
+  const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID
+  const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET
+
+  if (!projectId || !dataset) {
+    return (
+      <main className="mx-auto max-w-2xl px-6 py-16">
+        <h1 className="text-2xl font-semibold">Sanity Studio ist nicht konfiguriert</h1>
+        <p className="mt-4 text-base">
+          Fuer diese Umgebung fehlen die Variablen
+          {' '}
+          <code>NEXT_PUBLIC_SANITY_PROJECT_ID</code>
+          {' '}
+          und/oder
+          {' '}
+          <code>NEXT_PUBLIC_SANITY_DATASET</code>.
+        </p>
+      </main>
+    )
+  }
+
+  const config = (await import('../../../sanity.config')).default
   return <NextStudio config={config} />
 }
