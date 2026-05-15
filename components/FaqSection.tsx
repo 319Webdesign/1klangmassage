@@ -50,7 +50,7 @@ export function FaqSection() {
                     style={{ gridTemplateRows: isOpen ? '1fr' : '0fr' }}
                   >
                     <div className="min-h-0">
-                      <p className="border-t border-sage-100 px-5 py-4 text-base leading-relaxed text-brown-500/90 md:text-lg">
+                      <p className="border-t border-sage-100 px-5 py-4 text-lg leading-relaxed text-brown-500/90 md:text-xl">
                         {answerParts.map((part, partIndex) => (
                           <span key={`${question}-part-${partIndex}`}>
                             {part}
