@@ -48,7 +48,7 @@ export function ContactForm() {
         placeholder="Name"
         required
         disabled={status === 'loading'}
-        className="rounded-lg border border-sage-200 bg-white px-4 py-3 text-brown-500 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-1 focus:ring-sage-400 disabled:opacity-70"
+        className="text-site-body rounded-lg border border-sage-200 bg-white px-4 py-3 text-brown-500 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-1 focus:ring-sage-400 disabled:opacity-70"
       />
       <label htmlFor="email" className="sr-only">
         E-Mail
@@ -60,7 +60,7 @@ export function ContactForm() {
         placeholder="E-Mail"
         required
         disabled={status === 'loading'}
-        className="rounded-lg border border-sage-200 bg-white px-4 py-3 text-brown-500 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-1 focus:ring-sage-400 disabled:opacity-70"
+        className="text-site-body rounded-lg border border-sage-200 bg-white px-4 py-3 text-brown-500 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-1 focus:ring-sage-400 disabled:opacity-70"
       />
       <label htmlFor="message" className="sr-only">
         Nachricht
@@ -72,22 +72,22 @@ export function ContactForm() {
         placeholder="Nachricht"
         required
         disabled={status === 'loading'}
-        className="rounded-lg border border-sage-200 bg-white px-4 py-3 text-brown-500 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-1 focus:ring-sage-400 disabled:opacity-70"
+        className="text-site-body rounded-lg border border-sage-200 bg-white px-4 py-3 text-brown-500 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-1 focus:ring-sage-400 disabled:opacity-70"
       />
       {status === 'success' && (
-        <p className="rounded-lg bg-sage-100 px-4 py-3 text-sm font-medium text-sage-700">
+        <p className="text-site-body rounded-lg bg-sage-100 px-4 py-3 font-medium text-sage-700">
           Vielen Dank! Ihre Nachricht wurde gesendet.
         </p>
       )}
       {status === 'error' && (
-        <p className="rounded-lg bg-red-50 px-4 py-3 text-sm font-medium text-red-700">
+        <p className="text-site-body rounded-lg bg-red-50 px-4 py-3 font-medium text-red-700">
           {errorMessage}
         </p>
       )}
       <button
         type="submit"
         disabled={status === 'loading'}
-        className="w-fit rounded-full bg-orange-500 px-8 py-3 font-medium text-white transition-colors hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 disabled:opacity-70"
+        className="text-site-body w-fit rounded-full bg-orange-500 px-8 py-3 font-medium text-white transition-colors hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 disabled:opacity-70"
       >
         {status === 'loading' ? 'Wird gesendet…' : 'Nachricht senden'}
       </button>

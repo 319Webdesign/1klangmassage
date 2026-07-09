@@ -13,10 +13,10 @@ export function FaqSection() {
       className="bg-sage-100 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
       <div className="mx-auto max-w-3xl">
-        <h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
+        <h2 className="text-site-heading text-brown-600">
           Häufige Fragen zu Wellness & Entspannungsmassage
         </h2>
-        <p className="mt-2 text-base text-brown-500/80 md:text-lg">
+        <p className="text-site-body mt-2 text-brown-500/80">
           Antworten auf die wichtigsten Fragen zu unseren Massagen in Darmstadt
         </p>
         <dl className="mt-10 space-y-2">
@@ -32,7 +32,7 @@ export function FaqSection() {
                   <button
                     type="button"
                     onClick={() => setOpenIndex(isOpen ? null : index)}
-                    className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left font-serif text-xl font-semibold text-brown-600 transition-colors hover:bg-sage-50 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-inset"
+                    className="text-site-lead flex w-full items-center justify-between gap-4 px-5 py-4 text-left font-serif font-semibold text-brown-600 transition-colors hover:bg-sage-50 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-inset"
                     aria-expanded={isOpen}
                     aria-controls={`faq-answer-${index}`}
                     id={`faq-question-${index}`}
@@ -50,7 +50,7 @@ export function FaqSection() {
                     style={{ gridTemplateRows: isOpen ? '1fr' : '0fr' }}
                   >
                     <div className="min-h-0">
-                      <p className="border-t border-sage-100 px-5 py-4 text-lg leading-relaxed text-brown-500/90 md:text-xl">
+                      <p className="text-site-body border-t border-sage-100 px-5 py-4 text-brown-500/90">
                         {answerParts.map((part, partIndex) => (
                           <span key={`${question}-part-${partIndex}`}>
                             {part}

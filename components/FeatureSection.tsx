@@ -63,13 +63,13 @@ export function FeatureSection() {
               isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            <span className="inline-block rounded-full bg-sage-600 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-white shadow-sm">
+            <span className="text-site-body inline-block rounded-full bg-sage-600 px-4 py-1.5 font-semibold uppercase tracking-wider text-white shadow-sm">
               Neu bei 1klang
             </span>
-            <h2 className="font-serif text-3xl font-semibold leading-tight text-brown-700 md:text-4xl lg:text-5xl">
+            <h2 className="text-site-heading text-brown-700">
               Zeit zu zweit: Partnermassagekurse in Darmstadt
             </h2>
-            <p className="text-base text-brown-600/95 leading-relaxed md:text-lg">
+            <p className="text-site-body text-brown-600/95">
               Ein Kurs für zwei Personen, in dem die Grundlagen der Massage vermittelt werden.
               Grifftechniken wie Effleurage, Petrissage und Friktion werden gezeigt und praktisch geübt –
               für tiefenwirksame Entspannung in Zweisamkeit.
@@ -78,7 +78,7 @@ export function FeatureSection() {
             {/* Hinweis zu viert */}
             <div className="flex items-start gap-3 rounded-xl border border-orange-200 bg-orange-50 px-4 py-3">
               <Users className="mt-0.5 h-5 w-5 shrink-0 text-orange-500" strokeWidth={1.5} />
-              <p className="text-sm text-brown-600/95 md:text-base">
+              <p className="text-site-body text-brown-600/95">
                 <span className="font-semibold">Auch zu viert buchbar:</span> Der Kurs kann auf Wunsch mit vier Personen stattfinden (50&nbsp;% Aufpreis).
               </p>
             </div>
@@ -91,21 +91,21 @@ export function FeatureSection() {
                   className="rounded-2xl border border-stone-200 bg-stone-50 p-5 shadow-sm"
                 >
                   <div className="mb-2 flex items-center justify-between gap-4">
-                    <span className="rounded-full bg-sage-600 px-3 py-0.5 text-xs font-semibold uppercase tracking-wide text-white">
+                    <span className="text-site-body rounded-full bg-sage-600 px-3 py-0.5 font-semibold uppercase tracking-wide text-white">
                       {mod.number}
                     </span>
-                    <span className="text-sm font-medium text-brown-500">{mod.duration}</span>
+                    <span className="text-site-body font-medium text-brown-500">{mod.duration}</span>
                   </div>
-                  <h3 className="font-serif text-lg font-semibold text-brown-700">{mod.title}</h3>
-                  <p className="mt-1 text-sm leading-relaxed text-brown-600/90">{mod.description}</p>
-                  <p className="mt-3 text-right text-lg font-semibold text-orange-500">{mod.price}</p>
+                  <h3 className="text-site-lead font-serif font-semibold text-brown-700">{mod.title}</h3>
+                  <p className="text-site-body mt-1 text-brown-600/90">{mod.description}</p>
+                  <p className="text-site-body mt-3 text-right font-semibold text-orange-500">{mod.price}</p>
                 </div>
               ))}
             </div>
 
             <a
               href="#kontakt"
-              className="mt-2 inline-block rounded-full bg-orange-500 px-8 py-4 text-base font-medium text-white shadow-lg transition-all hover:bg-orange-600 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 md:text-lg"
+              className="text-site-body mt-2 inline-block rounded-full bg-orange-500 px-8 py-4 font-medium text-white shadow-lg transition-all hover:bg-orange-600 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2"
             >
               Jetzt anfragen
             </a>

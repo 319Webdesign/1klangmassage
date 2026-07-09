@@ -103,14 +103,14 @@ export default async function AktuellesDetailPage({
           ) : null}
 
           <div className="px-6 py-8 md:px-10 md:py-12">
-            <p className="text-sm font-medium uppercase tracking-wide text-sage-700">
+            <p className="text-site-body font-medium uppercase tracking-wide text-sage-700">
               {formatDate(post.publishedAt)}
             </p>
-            <h1 className="mt-3 font-serif text-4xl font-semibold leading-tight text-brown-600 md:text-5xl">
+            <h1 className="text-site-heading mt-3 text-brown-600">
               {post.title}
             </h1>
 
-            <div className="prose prose-lg mt-8 max-w-none prose-headings:font-serif prose-headings:text-brown-600 prose-p:text-brown-500 prose-li:text-brown-500 prose-strong:text-brown-600">
+            <div className="text-site-prose mt-8 max-w-none">
               <PortableText value={post.body} />
             </div>
           </div>

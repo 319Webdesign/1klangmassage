@@ -34,14 +34,14 @@ export function Header() {
             className="h-12 w-12 rounded-full object-cover md:h-14 md:w-14"
             priority
           />
-          <span className="font-serif text-lg font-semibold md:text-xl">
+          <span className="text-site-lead font-serif font-semibold">
             <span className="text-white">1k</span>
             <span className="text-white/90">lang massage</span>
           </span>
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden gap-6 text-lg font-semibold text-white/90 md:flex md:text-xl">
+        <nav className="text-site-lead hidden gap-6 font-semibold text-white/90 md:flex">
           {navLinks.map(({ href, label }) => (
             <Link key={href} href={href} className="hover:text-white">
               {label}
@@ -79,7 +79,7 @@ export function Header() {
               key={href}
               href={href}
               onClick={closeMenu}
-              className="rounded-lg px-4 py-3 text-xl font-semibold text-white transition-colors hover:bg-sage-500/50"
+              className="text-site-lead rounded-lg px-4 py-3 font-semibold text-white transition-colors hover:bg-sage-500/50"
             >
               {label}
             </Link>

@@ -29,15 +29,15 @@ export function Footer() {
                 height={56}
                 className="h-14 w-14 rounded-full object-cover"
               />
-              <span className="font-serif text-xl font-semibold">
+              <span className="text-site-lead font-serif font-semibold">
                 <span className="text-white">1k</span>
                 <span className="text-white/90">lang massage</span>
               </span>
             </Link>
-            <p className="font-serif text-lg italic text-white/90">
+            <p className="text-site-lead font-serif italic text-white/90">
               Ankommen. Aufatmen. Einklang finden.
             </p>
-            <p className="text-sm leading-relaxed text-white/80">
+            <p className="text-site-body text-white/80">
               Individuelle Wellnessmassagen in Darmstadt – persönlich auf Ihre
               Bedürfnisse abgestimmt.
             </p>
@@ -45,7 +45,7 @@ export function Footer() {
 
           {/* Spalte 2: Leistungen */}
           <div className="flex flex-col items-center space-y-4 border-b border-white/20 pb-8 md:items-start md:border-b-0 md:pb-0">
-            <h3 className="font-serif text-lg font-semibold text-white">
+            <h3 className="text-site-lead font-serif font-semibold text-white">
               Leistungen
             </h3>
             <ul className="space-y-2">
@@ -53,7 +53,7 @@ export function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="inline-block text-sm text-white/80 transition-colors hover:text-gold-500 hover:underline"
+                    className="text-site-body inline-block text-white/80 transition-colors hover:text-gold-500 hover:underline"
                   >
                     {label}
                   </Link>
@@ -64,7 +64,7 @@ export function Footer() {
 
           {/* Spalte 3: Kontakt & Standort */}
           <div className="flex flex-col items-center space-y-4 border-b border-white/20 pb-8 md:items-start md:border-b-0 md:pb-0">
-            <h3 className="font-serif text-lg font-semibold text-white">
+            <h3 className="text-site-lead font-serif font-semibold text-white">
               Kontakt & Standort
             </h3>
             <address className="not-italic">
@@ -73,7 +73,7 @@ export function Footer() {
                   className="mt-0.5 h-4 w-4 shrink-0 text-white/70"
                   aria-hidden
                 />
-                <div className="text-sm text-white/80">
+                <div className="text-site-body text-white/80">
                   <p className="font-medium text-white">1klang massage</p>
                   <p>Stefan Klemm</p>
                   <p className="mt-1">Carsonweg 1</p>
@@ -84,27 +84,27 @@ export function Footer() {
             <div className="flex flex-col items-center gap-2 md:items-start">
               <a
                 href="tel:+491637293772"
-                className="flex items-center gap-2 text-sm text-white/80 transition-colors hover:text-gold-500 hover:underline"
+                className="text-site-body flex items-center gap-2 text-white/80 transition-colors hover:text-gold-500 hover:underline"
               >
                 <Phone className="h-4 w-4 shrink-0" aria-hidden />
                 <span>Termin vereinbaren</span>
               </a>
               <a
                 href="mailto:stefan@1klang-massage.de"
-                className="flex items-center gap-2 text-sm text-white/80 transition-colors hover:text-gold-500 hover:underline"
+                className="text-site-body flex items-center gap-2 text-white/80 transition-colors hover:text-gold-500 hover:underline"
               >
                 <Mail className="h-4 w-4 shrink-0" aria-hidden />
                 <span>stefan@1klang-massage.de</span>
               </a>
             </div>
-            <p className="text-sm text-white/70">
+            <p className="text-site-body text-white/70">
               Öffnungszeiten: Termine nach Vereinbarung
             </p>
           </div>
 
           {/* Spalte 4: Rechtliches & Service */}
           <div className="flex flex-col items-center space-y-4 md:items-start">
-            <h3 className="font-serif text-lg font-semibold text-white">
+            <h3 className="text-site-lead font-serif font-semibold text-white">
               Rechtliches & Service
             </h3>
             <ul className="space-y-2">
@@ -112,7 +112,7 @@ export function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="inline-block text-sm text-white/80 transition-colors hover:text-gold-500 hover:underline"
+                    className="text-site-body inline-block text-white/80 transition-colors hover:text-gold-500 hover:underline"
                   >
                     {label}
                   </Link>
@@ -124,7 +124,7 @@ export function Footer() {
 
         {/* Untere Leiste */}
         <div className="flex flex-col items-center gap-4 pt-8 md:flex-row md:justify-between">
-          <p className="text-center text-sm text-white/70 md:text-left">
+          <p className="text-site-body text-center text-white/70 md:text-left">
             © 2026 1klang massage – Stefan Klemm. Handarbeit in Südhessen
           </p>
           <div className="flex gap-4">
@@ -144,7 +144,7 @@ export function Footer() {
             </a>
           </div>
         </div>
-        <p className="pb-4 pt-6 text-center text-sm text-white/60">
+        <p className="text-site-body pb-4 pt-6 text-center text-white/60">
           Designed by{' '}
           <a
             href="https://www.319webdesign.de/"

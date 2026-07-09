@@ -14,21 +14,21 @@ export default function CookieRichtlinienPage() {
       <Header />
       <main className="flex-1 bg-sage-100 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24">
         <div className="mx-auto max-w-3xl">
-          <h1 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl">
+          <h1 className="text-site-heading text-brown-600">
             Cookie-Richtlinien
           </h1>
-          <p className="mt-2 text-sm text-brown-500/70">
+          <p className="text-site-body mt-2 text-brown-500/70">
             Stand: März 2026
           </p>
-          <div className="mt-8 space-y-8 text-brown-500/90">
+          <div className="text-site-prose mt-8 space-y-8">
             <section>
-              <h2 className="font-semibold text-brown-600">Was sind Cookies?</h2>
+              <h2>Was sind Cookies?</h2>
               <p className="mt-2 leading-relaxed">
                 Cookies sind kleine Textdateien, die von Websites auf Ihrem Gerät (Computer, Smartphone, Tablet) gespeichert werden. Sie ermöglichen es der Website, Ihre Aktionen und Einstellungen (z. B. Anmeldung, Sprache, Schriftgröße und andere Anzeigepräferenzen) über einen bestimmten Zeitraum zu speichern, sodass Sie diese nicht bei jedem erneuten Besuch der Website oder beim Navigieren zwischen den Seiten erneut eingeben müssen.
               </p>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">Welche Cookies verwenden wir?</h2>
+              <h2>Welche Cookies verwenden wir?</h2>
               <p className="mt-2 leading-relaxed">
                 Auf unserer Website setzen wir verschiedene Arten von Cookies ein:
               </p>
@@ -45,7 +45,7 @@ export default function CookieRichtlinienPage() {
               </ul>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">Details zu verwendeten Diensten</h2>
+              <h2>Details zu verwendeten Diensten</h2>
               <h3 className="mt-4 font-medium text-brown-600">Google reCAPTCHA</h3>
               <p className="mt-2 leading-relaxed">
                 Wir nutzen Google reCAPTCHA, um zu erkennen, ob Eingaben in unseren Formularen von einem Menschen oder einem automatisierten Programm stammen. Dadurch schützen wir unsere Website vor Spam und Missbrauch. Bei der Nutzung von reCAPTCHA können Cookies von Google gesetzt werden. Weitere Informationen finden Sie in der{' '}
@@ -74,13 +74,13 @@ export default function CookieRichtlinienPage() {
               </p>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">Rechtsgrundlage</h2>
+              <h2>Rechtsgrundlage</h2>
               <p className="mt-2 leading-relaxed">
                 Die Verwendung von notwendigen Cookies erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der technischen Bereitstellung und Sicherheit der Website). Die Verwendung weiterer Cookies erfolgt nur mit Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die Sie über unser Cookie-Banner erteilen können.
               </p>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">Wie können Sie Cookies verwalten?</h2>
+              <h2>Wie können Sie Cookies verwalten?</h2>
               <p className="mt-2 leading-relaxed">
                 Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und diese einzeln erlauben oder ablehnen oder die Annahme von Cookies für bestimmte Fälle oder generell ausschließen. Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.
               </p>
@@ -89,7 +89,7 @@ export default function CookieRichtlinienPage() {
               </p>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">Kontakt</h2>
+              <h2>Kontakt</h2>
               <p className="mt-2 leading-relaxed">
                 Bei Fragen zu unseren Cookie-Richtlinien können Sie sich gerne an uns wenden:
               </p>
@@ -104,7 +104,7 @@ export default function CookieRichtlinienPage() {
                 </a>
               </p>
             </section>
-            <p className="text-sm text-brown-500/70">
+            <p className="text-site-body text-brown-500/70">
               <Link href="/" className="text-orange-500 hover:underline">
                 ← Zurück zur Startseite
               </Link>

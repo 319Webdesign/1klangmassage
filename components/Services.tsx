@@ -18,10 +18,10 @@ export function Services() {
       id="leistungen"
       className="min-h-screen bg-white px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
-      <h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
+      <h2 className="text-site-heading text-brown-600">
         Entspannungs- & Wellnessmassagen in Darmstadt
       </h2>
-      <p className="mt-2 max-w-2xl text-base text-brown-500/80 md:text-lg">
+      <p className="text-site-body mt-2 max-w-2xl text-brown-500/80">
         Individuelle Wellnessmassagen und tiefenwirksame Entspannung
       </p>
       <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -43,23 +43,23 @@ export function Services() {
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
               />
               {service.isHighlight && (
-                <span className="absolute left-4 top-4 rounded-full bg-orange-500 px-3 py-1 text-xs font-semibold text-white shadow-sm">
+                <span className="text-site-body absolute left-4 top-4 rounded-full bg-orange-500 px-3 py-1 font-semibold text-white shadow-sm">
                   Highlight
                 </span>
               )}
             </div>
             <div className="flex flex-1 flex-col p-6">
-              <h3 className="font-serif text-2xl font-semibold text-brown-600">
+              <h3 className="text-site-lead font-serif font-semibold text-brown-600">
                 {service.title}
               </h3>
-              <p className="mt-3 flex-1 text-base leading-relaxed text-brown-500/90">
+              <p className="text-site-body mt-3 flex-1 text-brown-500/90">
                 {service.description}
               </p>
               <div className="mt-4 space-y-1 rounded-lg bg-sage-50 px-4 py-3">
                 {service.priceOptions.map((opt) => (
                   <div
                     key={`${opt.duration}-${opt.price}`}
-                    className="flex items-center justify-between text-base font-medium text-brown-600"
+                    className="text-site-body flex items-center justify-between font-medium text-brown-600"
                   >
                     <span>{opt.duration}</span>
                     <span className="font-bold">{opt.price}</span>
@@ -68,7 +68,7 @@ export function Services() {
               </div>
               <Link
                 href="#kontakt"
-                className="mt-5 block w-full rounded-full bg-gold-500 py-3 text-center text-base font-medium text-white shadow-sm transition-colors hover:bg-gold-600 focus:outline-none focus:ring-2 focus:ring-gold-500 focus:ring-offset-2"
+                className="text-site-body mt-5 block w-full rounded-full bg-gold-500 py-3 text-center font-medium text-white shadow-sm transition-colors hover:bg-gold-600 focus:outline-none focus:ring-2 focus:ring-gold-500 focus:ring-offset-2"
               >
                 Jetzt buchen
               </Link>

@@ -22,10 +22,10 @@ export function HeroTestimonial() {
     <blockquote className="mt-12 flex justify-center gap-3 rounded-xl bg-white/60 p-4 shadow-sm lg:justify-start">
       <Quote className="h-8 w-8 shrink-0 text-sage-400" aria-hidden />
       <div className="min-h-[4rem]">
-        <p className="text-sm italic text-brown-500/90">
+        <p className="text-site-body italic text-brown-500/90">
           &bdquo;{testimonial.quote}&ldquo;
         </p>
-        <cite className="mt-2 block text-sm not-italic text-sage-600">
+        <cite className="text-site-body mt-2 block not-italic text-sage-600">
           {testimonial.author}
         </cite>
       </div>

@@ -39,7 +39,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-sans text-sm text-brown-500 antialiased">
+      <body className="text-site-body font-sans text-brown-500 antialiased">
         {children}
         <CookieBanner />
       </body>

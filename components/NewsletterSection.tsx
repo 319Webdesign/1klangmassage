@@ -24,12 +24,12 @@ export function NewsletterSection() {
           </div>
         </div>
 
-        <h2 className="mt-6 text-center font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
+        <h2 className="text-site-heading mt-6 text-center text-brown-600">
           Nichts mehr verpassen
           <br />
-          <span className="text-2xl md:text-3xl lg:text-4xl">– Ihr Weg zu exklusiven Wohlfühlmomenten.</span>
+          <span className="font-normal">– Ihr Weg zu exklusiven Wohlfühlmomenten.</span>
         </h2>
-        <p className="mt-4 text-center text-base text-brown-500/90 leading-relaxed md:text-lg">
+        <p className="text-site-body mt-4 text-center text-brown-500/90">
           Melden Sie sich für meinen kostenlosen Newsletter an und erhalten Sie
           Tipps zur Entspannung sowie Informationen zu neuen Angeboten und freien
           Terminen in Darmstadt.
@@ -52,7 +52,7 @@ export function NewsletterSection() {
               placeholder="Ihre E-Mail-Adresse"
               required
               autoComplete="email"
-              className="min-h-[48px] w-full rounded-xl border border-sage-200 bg-white px-5 py-4 text-base text-brown-600 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-2 focus:ring-sage-500/30"
+              className="text-site-body min-h-[48px] w-full rounded-xl border border-sage-200 bg-white px-5 py-4 text-brown-600 placeholder:text-brown-400/60 focus:border-sage-400 focus:outline-none focus:ring-2 focus:ring-sage-500/30"
             />
           </div>
           <label className="flex cursor-pointer items-start gap-3">
@@ -63,7 +63,7 @@ export function NewsletterSection() {
               required
               className="mt-1.5 h-5 w-5 shrink-0 rounded border-sage-300 text-sage-600 focus:ring-sage-500"
             />
-            <span className="text-sm leading-relaxed text-brown-500/90">
+            <span className="text-site-body text-brown-500/90">
               Ich stimme zu, dass meine Daten zum Versand des Newsletters
               verarbeitet werden.
             </span>
@@ -75,7 +75,7 @@ export function NewsletterSection() {
           />
           <button
             type="submit"
-            className="min-h-[48px] w-full rounded-xl bg-sage-600 px-6 py-4 font-medium text-white shadow-sm transition-colors duration-300 hover:bg-gold-500 focus:outline-none focus:ring-2 focus:ring-sage-500 focus:ring-offset-2 focus:ring-offset-transparent"
+            className="text-site-body min-h-[48px] w-full rounded-xl bg-sage-600 px-6 py-4 font-medium text-white shadow-sm transition-colors duration-300 hover:bg-gold-500 focus:outline-none focus:ring-2 focus:ring-sage-500 focus:ring-offset-2 focus:ring-offset-transparent"
           >
             Anmelden
           </button>

@@ -39,17 +39,17 @@ export default async function AktuellesPage() {
       <Header />
       <main className="flex-1 px-4 py-12 md:px-8 md:py-16 lg:px-12 xl:px-24">
         <section className="mx-auto max-w-6xl">
-          <h1 className="font-serif text-4xl font-semibold text-brown-600 md:text-5xl">
+          <h1 className="text-site-heading text-brown-600">
             Aktuelles
           </h1>
-          <p className="mt-4 max-w-3xl text-lg leading-relaxed text-brown-500/90 md:text-xl">
+          <p className="text-site-body mt-4 max-w-3xl text-brown-500/90">
             Neuigkeiten, Impulse und Einblicke rund um Massage, Entspannung und
             Wohlbefinden.
           </p>
 
           {posts.length === 0 ? (
             <div className="mt-10 rounded-2xl border border-sage-300 bg-white/70 p-8 text-center shadow-sm">
-              <p className="text-lg text-brown-500">
+              <p className="text-site-body text-brown-500">
                 Aktuell sind noch keine Beitraege veroefentlicht.
               </p>
             </div>
@@ -62,10 +62,10 @@ export default async function AktuellesPage() {
                 >
                   <Link href={`/aktuelles/${post.slug}`} className="block">
                     <div className="p-6">
-                      <p className="text-sm font-medium uppercase tracking-wide text-sage-700">
+                      <p className="text-site-body font-medium uppercase tracking-wide text-sage-700">
                         {formatDate(post.publishedAt)}
                       </p>
-                      <h2 className="mt-2 font-serif text-2xl text-brown-600">
+                      <h2 className="text-site-lead mt-2 font-serif text-brown-600">
                         {post.title}
                       </h2>
                     </div>

@@ -24,3 +24,41 @@ body {
   animation: breathe 3s ease-in-out infinite;
 }
 
+@layer components {
+  /* Kleinste Größe – wie Hero-Subtext „Erleben Sie…“ (text-lg), überall einheitlich */
+  .text-site-body {
+    @apply text-lg leading-relaxed;
+  }
+
+  /* Mittlere Größe – Untertitel, Kartenüberschriften, Navigation */
+  .text-site-lead {
+    @apply text-lg font-medium leading-snug lg:text-2xl;
+  }
+
+  /* Große Größe – H1 & H2 */
+  .text-site-heading {
+    @apply font-serif text-3xl font-semibold leading-tight lg:text-5xl;
+  }
+
+  /* Fließtext mit eingebetteten Zwischenüberschriften (z. B. Blog, Rechtstexte) */
+  .text-site-prose {
+    @apply text-site-body text-brown-500/90;
+  }
+
+  .text-site-prose :is(h2, h3, h4) {
+    @apply text-site-lead mt-6 font-serif font-semibold text-brown-600;
+  }
+
+  .text-site-prose h3 {
+    @apply mt-4 font-medium;
+  }
+
+  .text-site-prose :is(ul, ol) {
+    @apply my-4 list-disc space-y-2 pl-6;
+  }
+
+  .text-site-prose strong {
+    @apply font-semibold text-brown-600;
+  }
+}
+

@@ -29,10 +29,10 @@ export function TestimonialsSection() {
       id="kundenstimmen"
       className="min-h-screen bg-sage-100 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
-      <h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
+      <h2 className="text-site-heading text-brown-600">
         Kundenstimmen
       </h2>
-      <p className="mt-2 max-w-2xl text-brown-500/80">
+      <p className="text-site-body mt-2 max-w-2xl text-brown-500/80">
         Was Gäste über ihre Erfahrung bei 1klang massage sagen
       </p>
 
@@ -54,10 +54,10 @@ export function TestimonialsSection() {
               strokeWidth={1}
               aria-hidden
             />
-            <blockquote className="mt-4 text-brown-500/95 leading-relaxed">
+            <blockquote className="text-site-body mt-4 text-brown-500/95">
               &bdquo;{testimonial.quote}&ldquo;
             </blockquote>
-            <cite className="mt-4 block font-serif text-lg font-semibold not-italic text-brown-600">
+            <cite className="text-site-lead mt-4 block font-serif font-semibold not-italic text-brown-600">
               {testimonial.author}
             </cite>
           </article>

@@ -15,23 +15,23 @@ export function CtaSection() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-start lg:gap-12">
           {/* Links: Text & Buttons */}
           <div className="text-white">
-            <h2 className="font-serif text-3xl font-semibold leading-tight md:text-4xl lg:text-5xl">
+            <h2 className="text-site-heading text-white">
               Bereit für Ihre persönliche Auszeit?
             </h2>
-            <p className="mt-4 text-lg leading-relaxed text-white/90">
+            <p className="text-site-body mt-4 text-white/90">
               Ob Verspannungen lösen oder einfach mal tief durchatmen – ich
               begleite Sie gerne auf Ihrem Weg zu mehr Wohlbefinden in Darmstadt.
             </p>
             <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
               <Link
                 href="#kontakt"
-                className="w-full rounded-full bg-orange-500 px-8 py-4 text-center font-medium text-white shadow-lg transition-all hover:bg-orange-600 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 focus:ring-offset-sage-600 sm:w-auto"
+                className="text-site-body w-full rounded-full bg-orange-500 px-8 py-4 text-center font-medium text-white shadow-lg transition-all hover:bg-orange-600 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 focus:ring-offset-sage-600 sm:w-auto"
               >
                 Jetzt Wunschtermin anfragen
               </Link>
               <Link
                 href="#kontakt?gutschein"
-                className="w-full rounded-full border-2 border-white/80 px-8 py-4 text-center font-medium text-white transition-colors hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-sage-600 sm:w-auto"
+                className="text-site-body w-full rounded-full border-2 border-white/80 px-8 py-4 text-center font-medium text-white transition-colors hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-sage-600 sm:w-auto"
               >
                 Gutschein verschenken
               </Link>
@@ -50,7 +50,7 @@ export function CtaSection() {
                   sizes="120px"
                   className="rounded-full object-cover ring-4 ring-white/30"
                 />
-                <span className="rounded-full bg-white/95 px-4 py-2 text-sm font-medium text-sage-700 shadow-sm">
+                <span className="text-site-body rounded-full bg-white/95 px-4 py-2 font-medium text-sage-700 shadow-sm">
                   Experte für Wellness und Entspannung
                 </span>
               </div>
@@ -63,7 +63,7 @@ export function CtaSection() {
                     <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/20">
                       <Icon className="h-4 w-4" strokeWidth={2} />
                     </span>
-                    <span className="text-base font-medium">{text}</span>
+                    <span className="text-site-body font-medium">{text}</span>
                   </li>
                 ))}
               </ul>

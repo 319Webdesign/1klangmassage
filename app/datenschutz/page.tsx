@@ -8,18 +8,18 @@ export default function DatenschutzPage() {
       <Header />
       <main className="flex-1 bg-sage-100 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24">
         <div className="mx-auto max-w-3xl">
-          <h1 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl">
+          <h1 className="text-site-heading text-brown-600">
             Datenschutzerklärung
           </h1>
-          <div className="mt-8 space-y-8 text-brown-500/90">
+          <div className="text-site-prose mt-8 space-y-8">
             {/* 1. Datenschutz auf einen Blick */}
             <section>
-              <h2 className="font-semibold text-brown-600">1. Datenschutz auf einen Blick</h2>
-              <h3 className="mt-4 font-medium text-brown-600">Allgemeine Hinweise</h3>
+              <h2>1. Datenschutz auf einen Blick</h2>
+              <h3 className="mt-4">Allgemeine Hinweise</h3>
               <p className="mt-2 leading-relaxed">
                 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Datenerfassung auf dieser Website</h3>
+              <h3 className="mt-4">Datenerfassung auf dieser Website</h3>
               <p className="mt-2 font-medium text-brown-600">Wer ist verantwortlich für die Datenerfassung auf dieser Website?</p>
               <p className="mt-1 leading-relaxed">
                 Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.
@@ -44,18 +44,18 @@ export default function DatenschutzPage() {
 
             {/* 2. Hosting */}
             <section>
-              <h2 className="font-semibold text-brown-600">2. Hosting</h2>
+              <h2>2. Hosting</h2>
               <p className="mt-2 leading-relaxed">
                 Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Externes Hosting</h3>
+              <h3 className="mt-4">Externes Hosting</h3>
               <p className="mt-2 leading-relaxed">
                 Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters / der Hoster gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln. Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar. Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
               </p>
               <p className="mt-3 leading-relaxed">
                 Wir setzen folgende(n) Hoster ein: <strong>wint.global</strong>
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Auftragsverarbeitung</h3>
+              <h3 className="mt-4">Auftragsverarbeitung</h3>
               <p className="mt-2 leading-relaxed">
                 Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
               </p>
@@ -63,12 +63,12 @@ export default function DatenschutzPage() {
 
             {/* 3. Allgemeine Hinweise und Pflichtinformationen */}
             <section>
-              <h2 className="font-semibold text-brown-600">3. Allgemeine Hinweise und Pflichtinformationen</h2>
-              <h3 className="mt-4 font-medium text-brown-600">Datenschutz</h3>
+              <h2>3. Allgemeine Hinweise und Pflichtinformationen</h2>
+              <h3 className="mt-4">Datenschutz</h3>
               <p className="mt-2 leading-relaxed">
                 Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht. Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Hinweis zur verantwortlichen Stelle</h3>
+              <h3 className="mt-4">Hinweis zur verantwortlichen Stelle</h3>
               <p className="mt-2 leading-relaxed">
                 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
               </p>
@@ -82,39 +82,39 @@ export default function DatenschutzPage() {
               <p className="mt-2 leading-relaxed">
                 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Speicherdauer</h3>
+              <h3 className="mt-4">Speicherdauer</h3>
               <p className="mt-2 leading-relaxed">
                 Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z. B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website</h3>
+              <h3 className="mt-4">Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website</h3>
               <p className="mt-2 leading-relaxed">
                 Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere Datenkategorien nach Art. 9 Abs. 1 DSGVO verarbeitet werden. Im Falle einer ausdrücklichen Einwilligung in die Übertragung personenbezogener Daten in Drittstaaten erfolgt die Datenverarbeitung außerdem auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO. Sofern Sie in die Speicherung von Cookies oder in den Zugriff auf Informationen in Ihr Endgerät (z. B. via Device-Fingerprinting) eingewilligt haben, erfolgt die Datenverarbeitung zusätzlich auf Grundlage von § 25 Abs. 1 TDDDG. Die Einwilligung ist jederzeit widerrufbar. Sind Ihre Daten zur Vertragserfüllung oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage des Art. 6 Abs. 1 lit. b DSGVO. Des Weiteren verarbeiten wir Ihre Daten, sofern diese zur Erfüllung einer rechtlichen Verpflichtung erforderlich sind auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO. Die Datenverarbeitung kann ferner auf Grundlage unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen. Über die jeweils im Einzelfall einschlägigen Rechtsgrundlagen wird in den folgenden Absätzen dieser Datenschutzerklärung informiert.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Empfänger von personenbezogenen Daten</h3>
+              <h3 className="mt-4">Empfänger von personenbezogenen Daten</h3>
               <p className="mt-2 leading-relaxed">
                 Im Rahmen unserer Geschäftstätigkeit arbeiten wir mit verschiedenen externen Stellen zusammen. Dabei ist teilweise auch eine Übermittlung von personenbezogenen Daten an diese externen Stellen erforderlich. Wir geben personenbezogene Daten nur dann an externe Stellen weiter, wenn dies im Rahmen einer Vertragserfüllung erforderlich ist, wenn wir gesetzlich hierzu verpflichtet sind (z. B. Weitergabe von Daten an Steuerbehörden), wenn wir ein berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO an der Weitergabe haben oder wenn eine sonstige Rechtsgrundlage die Datenweitergabe erlaubt. Beim Einsatz von Auftragsverarbeitern geben wir personenbezogene Daten unserer Kunden nur auf Grundlage eines gültigen Vertrags über Auftragsverarbeitung weiter. Im Falle einer gemeinsamen Verarbeitung wird ein Vertrag über gemeinsame Verarbeitung geschlossen.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+              <h3 className="mt-4">Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
               <p className="mt-2 leading-relaxed">
                 Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</h3>
+              <h3 className="mt-4">Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</h3>
               <p className="mt-2 leading-relaxed">
                 Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, haben Sie jederzeit das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. Die jeweilige Rechtsgrundlage, auf denen eine Verarbeitung beruht, entnehmen Sie dieser Datenschutzerklärung. Wenn Sie Widerspruch einlegen, werden wir Ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO). Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Wenn Sie widersprechen, werden Ihre personenbezogenen Daten anschließend nicht mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21 Abs. 2 DSGVO).
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Beschwerderecht bei der zuständigen Aufsichtsbehörde</h3>
+              <h3 className="mt-4">Beschwerderecht bei der zuständigen Aufsichtsbehörde</h3>
               <p className="mt-2 leading-relaxed">
                 Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Recht auf Datenübertragbarkeit</h3>
+              <h3 className="mt-4">Recht auf Datenübertragbarkeit</h3>
               <p className="mt-2 leading-relaxed">
                 Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Auskunft, Berichtigung und Löschung</h3>
+              <h3 className="mt-4">Auskunft, Berichtigung und Löschung</h3>
               <p className="mt-2 leading-relaxed">
                 Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Recht auf Einschränkung der Verarbeitung</h3>
+              <h3 className="mt-4">Recht auf Einschränkung der Verarbeitung</h3>
               <p className="mt-2 leading-relaxed">
                 Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:
               </p>
@@ -127,11 +127,11 @@ export default function DatenschutzPage() {
               <p className="mt-3 leading-relaxed">
                 Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">SSL- bzw. TLS-Verschlüsselung</h3>
+              <h3 className="mt-4">SSL- bzw. TLS-Verschlüsselung</h3>
               <p className="mt-2 leading-relaxed">
                 Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Widerspruch gegen Werbe-E-Mails</h3>
+              <h3 className="mt-4">Widerspruch gegen Werbe-E-Mails</h3>
               <p className="mt-2 leading-relaxed">
                 Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
               </p>
@@ -139,8 +139,8 @@ export default function DatenschutzPage() {
 
             {/* 4. Datenerfassung auf dieser Website */}
             <section>
-              <h2 className="font-semibold text-brown-600">4. Datenerfassung auf dieser Website</h2>
-              <h3 className="mt-4 font-medium text-brown-600">Cookies</h3>
+              <h2>4. Datenerfassung auf dieser Website</h2>
+              <h3 className="mt-4">Cookies</h3>
               <p className="mt-2 leading-relaxed">
                 Unsere Internetseiten verwenden so genannte „Cookies“. Cookies sind kleine Datenpakete und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät gespeichert. Session-Cookies werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser erfolgt. Cookies können von uns (First-Party-Cookies) oder von Drittunternehmen stammen (sog. Third-Party-Cookies). Third-Party-Cookies ermöglichen die Einbindung bestimmter Dienstleistungen von Drittunternehmen innerhalb von Webseiten (z. B. Cookies zur Abwicklung von Zahlungsdienstleistungen).
               </p>
@@ -150,11 +150,11 @@ export default function DatenschutzPage() {
               <p className="mt-3 leading-relaxed">
                 Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein. Sofern weitere Cookies und Dienste auf dieser Website eingesetzt werden, können Sie dies dieser Datenschutzerklärung entnehmen.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Kontaktformular</h3>
+              <h3 className="mt-4">Kontaktformular</h3>
               <p className="mt-2 leading-relaxed">
                 Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar. Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt.
               </p>
-              <h3 className="mt-4 font-medium text-brown-600">Anfrage per E-Mail oder Telefon</h3>
+              <h3 className="mt-4">Anfrage per E-Mail oder Telefon</h3>
               <p className="mt-2 leading-relaxed">
                 Wenn Sie uns per E-Mail oder Telefon kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar. Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.
               </p>
@@ -162,8 +162,8 @@ export default function DatenschutzPage() {
 
             {/* 5. Newsletter */}
             <section>
-              <h2 className="font-semibold text-brown-600">5. Newsletter</h2>
-              <h3 className="mt-4 font-medium text-brown-600">Newsletterdaten</h3>
+              <h2>5. Newsletter</h2>
+              <h3 className="mt-4">Newsletterdaten</h3>
               <p className="mt-2 leading-relaxed">
                 Wenn Sie den auf der Website angebotenen Newsletter beziehen möchten, benötigen wir von Ihnen eine E-Mail-Adresse sowie Informationen, welche uns die Überprüfung gestatten, dass Sie der Inhaber der angegebenen E-Mail-Adresse sind und mit dem Empfang des Newsletters einverstanden sind. Weitere Daten werden nicht bzw. nur auf freiwilliger Basis erhoben. Diese Daten verwenden wir ausschließlich für den Versand der angeforderten Informationen und geben diese nicht an Dritte weiter. Die Verarbeitung der in das Newsletteranmeldeformular eingegebenen Daten erfolgt ausschließlich auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Die erteilte Einwilligung zur Speicherung der Daten, der E-Mail-Adresse sowie deren Nutzung zum Versand des Newsletters können Sie jederzeit widerrufen, etwa über den „Austragen“-Link im Newsletter. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt. Die von Ihnen zum Zwecke des Newsletter-Bezugs bei uns hinterlegten Daten werden von uns bis zu Ihrer Austragung aus dem Newsletter bei uns bzw. dem Newsletterdiensteanbieter gespeichert und nach der Abbestellung des Newsletters oder nach Zweckfortfall aus der Newsletterverteilerliste gelöscht. Wir behalten uns vor, E-Mail-Adressen aus unserem Newsletterverteiler nach eigenem Ermessen im Rahmen unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO zu löschen oder zu sperren. Daten, die zu anderen Zwecken bei uns gespeichert wurden, bleiben hiervon unberührt.
               </p>
@@ -174,8 +174,26 @@ export default function DatenschutzPage() {
 
             {/* 6. Plugins und Tools */}
             <section>
-              <h2 className="font-semibold text-brown-600">6. Plugins und Tools</h2>
-              <h3 className="mt-4 font-medium text-brown-600">Google Maps</h3>
+              <h2>6. Plugins und Tools</h2>
+              <h3 className="mt-4">Google reCAPTCHA</h3>
+              <p className="mt-2 leading-relaxed">
+                Diese Website nutzt Google reCAPTCHA zur Überprüfung, ob Eingaben in Formulare durch eine natürliche Person oder missbräuchlich durch automatisierte Programme erfolgen. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+              </p>
+              <p className="mt-3 leading-relaxed">
+                reCAPTCHA analysiert das Verhalten des Websitebesuchers anhand verschiedener Merkmale. Diese Analyse beginnt automatisch, sobald eine Seite mit aktiviertem reCAPTCHA aufgerufen wird. Hierbei werden verschiedene Informationen verarbeitet, beispielsweise die IP-Adresse, Informationen über das verwendete Endgerät und den Browser, die Verweildauer auf der Website sowie Mausbewegungen und sonstige Interaktionen.
+              </p>
+              <p className="mt-3 leading-relaxed">
+                Die Verarbeitung erfolgt zum Schutz unserer Website vor missbräuchlichen automatisierten Anfragen und Spam. Die Nutzung von Google reCAPTCHA erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO sowie § 25 Abs. 1 TDDDG, soweit hierbei Informationen auf Ihrem Endgerät gespeichert oder ausgelesen werden. Die Einwilligung kann jederzeit mit Wirkung für die Zukunft widerrufen werden.
+              </p>
+              <p className="mt-3 leading-relaxed">
+                Die im Rahmen der Nutzung von reCAPTCHA erhobenen Daten können an Server von Google in den USA übertragen werden. Google ist nach dem EU-US Data Privacy Framework (DPF) zertifiziert. Weitere Informationen finden Sie in der Datenschutzerklärung von Google:{' '}
+                <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">https://policies.google.com/privacy?hl=de</a>.
+              </p>
+              <p className="mt-3 leading-relaxed">
+                Weitere Informationen zu Google reCAPTCHA finden Sie unter:{' '}
+                <a href="https://developers.google.com/recaptcha" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">https://developers.google.com/recaptcha</a>.
+              </p>
+              <h3 className="mt-4">Google Maps</h3>
               <p className="mt-2 leading-relaxed">
                 Diese Seite nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland. Mit Hilfe dieses Dienstes können wir Kartenmaterial auf unserer Website einbinden. Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu speichern. Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung. Wenn Google Maps aktiviert ist, kann Google zum Zwecke der einheitlichen Darstellung der Schriftarten Google Fonts verwenden. Beim Aufruf von Google Maps lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
               </p>
@@ -195,7 +213,7 @@ export default function DatenschutzPage() {
               </p>
             </section>
 
-            <p className="text-sm text-brown-500/70">
+            <p className="text-site-body text-brown-500/70">
               Quelle:{' '}
               <a
                 href="https://www.e-recht24.de"
@@ -206,7 +224,7 @@ export default function DatenschutzPage() {
                 https://www.e-recht24.de
               </a>
             </p>
-            <p className="pt-4 text-sm text-brown-500/70">
+            <p className="text-site-body pt-4 text-brown-500/70">
               <Link href="/" className="text-orange-500 hover:underline">
                 ← Zurück zur Startseite
               </Link>

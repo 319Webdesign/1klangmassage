@@ -8,12 +8,12 @@ export default function ImpressumPage() {
       <Header />
       <main className="flex-1 bg-sage-100 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24">
         <div className="mx-auto max-w-3xl">
-          <h1 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl">
+          <h1 className="text-site-heading text-brown-600">
             Impressum
           </h1>
-          <div className="mt-8 space-y-6 text-brown-500/90">
+          <div className="text-site-prose mt-8 space-y-6">
             <section>
-              <h2 className="font-semibold text-brown-600">Angaben gemäß § 5 DDG</h2>
+              <h2>Angaben gemäß § 5 DDG</h2>
               <p className="mt-2">
                 Stefan Klemm
                 <br />
@@ -23,7 +23,7 @@ export default function ImpressumPage() {
               </p>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">Kontakt</h2>
+              <h2>Kontakt</h2>
               <p className="mt-2">
                 Telefon:{' '}
                 <a href="tel:+491637293772" className="text-orange-500 hover:underline">
@@ -37,7 +37,7 @@ export default function ImpressumPage() {
               </p>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">Mitgliedschaft & Versicherung</h2>
+              <h2>Mitgliedschaft & Versicherung</h2>
               <p className="mt-2">
                 Mitglied der Berufsgenossenschaft für Gesundheitsdienst und Wohlfahrtspflege (BGW)
                 <br />
@@ -48,7 +48,7 @@ export default function ImpressumPage() {
               </p>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">Redaktionell verantwortlich</h2>
+              <h2>Redaktionell verantwortlich</h2>
               <p className="mt-2">
                 Stefan Klemm
                 <br />
@@ -58,7 +58,7 @@ export default function ImpressumPage() {
               </p>
             </section>
             <section>
-              <h2 className="font-semibold text-brown-600">
+              <h2>
                 Verbraucherstreitbeilegung / Universalschlichtungsstelle
               </h2>
               <p className="mt-2">
@@ -66,7 +66,7 @@ export default function ImpressumPage() {
                 Verbraucherschlichtungsstelle teilzunehmen.
               </p>
             </section>
-            <p className="text-sm text-brown-500/70">
+            <p>
               <Link href="/" className="text-orange-500 hover:underline">
                 ← Zurück zur Startseite
               </Link>

@@ -20,18 +20,18 @@ export default function Home() {
         {/* Hero */}
         <section className="relative flex min-h-screen flex-col-reverse items-center gap-10 overflow-hidden px-4 pt-8 pb-24 md:gap-12 md:px-8 md:pt-10 md:pb-32 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 lg:pt-12 lg:px-12 xl:px-24">
           <div className="w-full max-w-xl text-center lg:max-w-3xl lg:justify-self-start lg:text-left">
-            <h1 className="font-serif text-4xl font-semibold leading-tight text-brown-600 md:text-5xl lg:text-6xl">
+            <h1 className="text-site-heading text-brown-600">
               Entspannungs- & Wellnessmassagen in Darmstadt
             </h1>
-            <p className="mt-4 text-xl font-medium text-sage-600 md:text-2xl">
+            <p className="text-site-lead mt-4 text-sage-600">
               Ihr Experte für Entspannung und Wohlbefinden in Darmstadt
             </p>
-            <p className="mt-6 text-lg leading-relaxed text-brown-500/90">
+            <p className="text-site-body mt-6 text-brown-500/90">
               Erleben Sie individuelle Massagen, die Körper und Geist sanft in Balance bringen – persönlich auf Ihre Bedürfnisse abgestimmt.
             </p>
           <a
             href="#kontakt"
-            className="animate-breathe mt-8 inline-block rounded-full bg-orange-500 px-8 py-4 font-medium text-white shadow-sm transition-colors hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2"
+            className="text-site-body animate-breathe mt-8 inline-block rounded-full bg-orange-500 px-8 py-4 font-medium text-white shadow-sm transition-colors hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2"
           >
               Termin vereinbaren
             </a>
@@ -61,11 +61,11 @@ export default function Home() {
         className="min-h-screen bg-sage-100 px-4 py-16 md:px-8 md:py-24 lg:px-12 xl:px-24"
       >
         <div className="mx-auto max-w-6xl">
-<h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
+<h2 className="text-site-heading text-brown-600">
           Über mich
         </h2>
-          <div className="mt-6 grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-12">
-            <div className="space-y-4 text-lg leading-relaxed text-brown-500/90 md:text-xl">
+          <div className="text-site-body mt-6 grid gap-8 text-brown-500/90 lg:grid-cols-2 lg:items-center lg:gap-12">
+            <div className="space-y-4">
               <p>
                 Seit über 15 Jahren massiere ich bereits mit Leidenschaft und bilde
                 mich regelmäßig fort – für tiefenwirksame Entspannung in Südhessen.
@@ -109,7 +109,7 @@ export default function Home() {
         id="kontakt"
         className="min-h-0 bg-sage-100 px-4 py-12 md:min-h-screen md:px-8 md:py-24 lg:px-12 xl:px-24"
       >
-        <h2 className="font-serif text-3xl font-semibold text-brown-600 md:text-4xl lg:text-5xl">
+        <h2 className="text-site-heading text-brown-600">
           Kontakt
         </h2>
         <div className="mt-5 grid gap-12 lg:grid-cols-2">
