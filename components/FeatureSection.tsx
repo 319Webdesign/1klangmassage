@@ -72,7 +72,7 @@ export function FeatureSection() {
             <p className="text-site-body text-brown-600/95">
               Ein Kurs für zwei Personen, in dem die Grundlagen der Massage vermittelt werden.
               Grifftechniken wie Effleurage, Petrissage und Friktion werden gezeigt und praktisch geübt –
-              für tiefenwirksame Entspannung in Zweisamkeit.
+              tiefenwirksame Entspannung für Partner oder Freunde.
             </p>
 
             {/* Hinweis zu viert */}

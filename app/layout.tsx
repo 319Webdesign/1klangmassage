@@ -14,6 +14,15 @@ export const metadata: Metadata = {
   icons: {
     icon: '/img/logo.svg',
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+    },
+  },
   description:
     'Ihre Auszeit in Darmstadt: Professionelle Entspannungsmassagen, Klangmassagen und Wellness-Anwendungen bei Stefan Klemm. Jetzt Termin vereinbaren!',
   openGraph: {
