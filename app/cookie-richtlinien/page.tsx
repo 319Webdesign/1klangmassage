@@ -37,7 +37,7 @@ export default function CookieRichtlinienPage() {
                   <strong>Notwendige Cookies:</strong> Diese Cookies sind für den Betrieb der Website unerlässlich. Sie ermöglichen grundlegende Funktionen wie die Navigation und den Zugang zu geschützten Bereichen. Ohne diese Cookies kann die Website nicht ordnungsgemäß funktionieren.
                 </li>
                 <li>
-                  <strong>Funktionale Cookies:</strong> Diese Cookies ermöglichen erweiterte Funktionalität und Personalisierung, z. B. zur Abwehr von Spam und missbräuchlichen Eingaben (z. B. Google reCAPTCHA im Kontakt- und Newsletter-Formular).
+                  <strong>Funktionale Cookies:</strong> Diese Cookies ermöglichen erweiterte Funktionalität und Personalisierung, sofern solche Funktionen auf der Website eingesetzt werden.
                 </li>
                 <li>
                   <strong>Externe Inhalte:</strong> Für die Anzeige von Google Maps (z. B. auf unserer Kontaktseite) können von Drittanbietern Cookies gesetzt werden.
@@ -46,18 +46,9 @@ export default function CookieRichtlinienPage() {
             </section>
             <section>
               <h2>Details zu verwendeten Diensten</h2>
-              <h3 className="mt-4 font-medium text-brown-600">Google reCAPTCHA</h3>
+              <h3 className="mt-4 font-medium text-brown-600">ALTCHA (Spam-Schutz)</h3>
               <p className="mt-2 leading-relaxed">
-                Wir nutzen Google reCAPTCHA, um zu erkennen, ob Eingaben in unseren Formularen von einem Menschen oder einem automatisierten Programm stammen. Dadurch schützen wir unsere Website vor Spam und Missbrauch. Bei der Nutzung von reCAPTCHA können Cookies von Google gesetzt werden. Weitere Informationen finden Sie in der{' '}
-                <a
-                  href="https://policies.google.com/privacy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-orange-500 hover:underline"
-                >
-                  Datenschutzerklärung von Google
-                </a>
-                .
+                Zum Schutz des Kontaktformulars vor Spam und automatisierten Anfragen nutzen wir ALTCHA, eine selbst gehostete Open-Source-Lösung. Die Sicherheitsprüfung wird auf unseren eigenen Servern erzeugt und geprüft. ALTCHA setzt dabei keine Cookies, verwendet kein Tracking und übermittelt keine Daten an Google oder andere externe CAPTCHA-Dienste.
               </p>
               <h3 className="mt-4 font-medium text-brown-600">Google Maps</h3>
               <p className="mt-2 leading-relaxed">

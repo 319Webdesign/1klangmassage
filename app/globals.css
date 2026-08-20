@@ -62,3 +62,9 @@ body {
   }
 }
 
+.altcha-field altcha-widget {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+

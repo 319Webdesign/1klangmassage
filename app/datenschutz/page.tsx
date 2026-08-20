@@ -175,23 +175,16 @@ export default function DatenschutzPage() {
             {/* 6. Plugins und Tools */}
             <section>
               <h2>6. Plugins und Tools</h2>
-              <h3 className="mt-4">Google reCAPTCHA</h3>
+              <h3 className="mt-4">ALTCHA (Spam-Schutz)</h3>
               <p className="mt-2 leading-relaxed">
-                Diese Website nutzt Google reCAPTCHA zur Überprüfung, ob Eingaben in Formulare durch eine natürliche Person oder missbräuchlich durch automatisierte Programme erfolgen. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+                Diese Website nutzt ALTCHA, eine Open-Source-Lösung zum Schutz vor Spam und missbräuchlichen automatisierten Anfragen im Kontaktformular. Die Challenge wird auf unseren eigenen Servern erzeugt und die Antwort serverseitig geprüft. Es werden keine Ressourcen von Google reCAPTCHA geladen und keine Daten an Google oder andere externe CAPTCHA-Dienste übermittelt.
               </p>
               <p className="mt-3 leading-relaxed">
-                reCAPTCHA analysiert das Verhalten des Websitebesuchers anhand verschiedener Merkmale. Diese Analyse beginnt automatisch, sobald eine Seite mit aktiviertem reCAPTCHA aufgerufen wird. Hierbei werden verschiedene Informationen verarbeitet, beispielsweise die IP-Adresse, Informationen über das verwendete Endgerät und den Browser, die Verweildauer auf der Website sowie Mausbewegungen und sonstige Interaktionen.
+                ALTCHA arbeitet ohne Tracking-Cookies und ohne Fingerprinting. Verarbeitet werden lediglich die für die Prüfung erforderlichen technischen Informationen der Challenge selbst. Die Verarbeitung erfolgt auf Grundlage unseres berechtigten Interesses am Schutz unserer Website vor Spam und Missbrauch (Art. 6 Abs. 1 lit. f DSGVO).
               </p>
               <p className="mt-3 leading-relaxed">
-                Die Verarbeitung erfolgt zum Schutz unserer Website vor missbräuchlichen automatisierten Anfragen und Spam. Die Nutzung von Google reCAPTCHA erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO sowie § 25 Abs. 1 TDDDG, soweit hierbei Informationen auf Ihrem Endgerät gespeichert oder ausgelesen werden. Die Einwilligung kann jederzeit mit Wirkung für die Zukunft widerrufen werden.
-              </p>
-              <p className="mt-3 leading-relaxed">
-                Die im Rahmen der Nutzung von reCAPTCHA erhobenen Daten können an Server von Google in den USA übertragen werden. Google ist nach dem EU-US Data Privacy Framework (DPF) zertifiziert. Weitere Informationen finden Sie in der Datenschutzerklärung von Google:{' '}
-                <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">https://policies.google.com/privacy?hl=de</a>.
-              </p>
-              <p className="mt-3 leading-relaxed">
-                Weitere Informationen zu Google reCAPTCHA finden Sie unter:{' '}
-                <a href="https://developers.google.com/recaptcha" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">https://developers.google.com/recaptcha</a>.
+                Weitere Informationen zu ALTCHA finden Sie unter:{' '}
+                <a href="https://altcha.org/de/open-source-captcha/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">https://altcha.org/de/open-source-captcha/</a>.
               </p>
               <h3 className="mt-4">Google Maps</h3>
               <p className="mt-2 leading-relaxed">

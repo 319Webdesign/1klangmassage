@@ -1,5 +1,10 @@
 import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
+import {
+  ALTCHA_ERROR_MESSAGE,
+  ALTCHA_FIELD_NAME,
+  verifyAltchaPayload,
+} from '@/lib/altcha'
 
 export async function POST(request: Request) {
   try {
@@ -7,10 +12,19 @@ export async function POST(request: Request) {
     const name = (formData.get('name') as string) || ''
     const email = (formData.get('email') as string) || ''
     const message = (formData.get('message') as string) || ''
+    const altchaPayload = formData.get(ALTCHA_FIELD_NAME)
 
     if (!name.trim() || !email.trim() || !message.trim()) {
       return NextResponse.json(
         { error: 'Bitte füllen Sie alle Felder aus.' },
+        { status: 400 }
+      )
+    }
+
+    const altchaResult = await verifyAltchaPayload(altchaPayload)
+    if (!altchaResult.ok) {
+      return NextResponse.json(
+        { error: ALTCHA_ERROR_MESSAGE },
         { status: 400 }
       )
     }

@@ -1,10 +1,8 @@
 'use client'
 
 import { Mail, Leaf } from 'lucide-react'
-import Script from 'next/script'
 
 const CLEVERREACH_FORM_ACTION = 'https://eu2.cleverreach.com/f/250480-246890/wcs/'
-const RECAPTCHA_SITE_KEY = '6Lfhcd0SAAAAAOBEHmAVEHJeRnrH8T7wPvvNzEPD'
 
 export function NewsletterSection() {
   return (
@@ -12,10 +10,6 @@ export function NewsletterSection() {
       id="newsletter"
       className="min-h-0 bg-sage-100 px-4 py-12 md:min-h-screen md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
-      <Script
-        src="https://www.google.com/recaptcha/api.js"
-        strategy="lazyOnload"
-      />
       <div className="mx-auto max-w-3xl">
         <div className="flex justify-center">
           <div className="relative flex h-14 w-14 items-center justify-center rounded-full bg-white/80 shadow-sm">
@@ -68,11 +62,6 @@ export function NewsletterSection() {
               verarbeitet werden.
             </span>
           </label>
-          <div
-            className="g-recaptcha"
-            data-sitekey={RECAPTCHA_SITE_KEY}
-            aria-label="Sicherheitsprüfung"
-          />
           <button
             type="submit"
             className="text-site-body min-h-[48px] w-full rounded-xl bg-sage-600 px-6 py-4 font-medium text-white shadow-sm transition-colors duration-300 hover:bg-gold-500 focus:outline-none focus:ring-2 focus:ring-sage-500 focus:ring-offset-2 focus:ring-offset-transparent"

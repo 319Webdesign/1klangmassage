@@ -2,6 +2,7 @@ const path = require('path')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  transpilePackages: ['altcha', 'altcha-lib'],
   // Webpack-Cache deaktivieren (verhindert Chunk-Fehler "Cannot find module './XXX.js'" unter Windows/Dev)
   webpack: (config, { dev, isServer }) => {
     if (dev) config.cache = false
