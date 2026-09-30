@@ -30,11 +30,11 @@ export const SERVICE_ITEMS: ServiceItem[] = [
     description:
       'Zielgerichtete Techniken lösen Verspannungen in Rücken und Nacken. Fühlen Sie sich wieder leicht und beweglich.',
     priceOptions: [
-      { duration: '30 Min', price: '40 €' },
-      { duration: '45 Min', price: '55 €' },
+      { duration: '30 Minuten (Massagestuhl)', price: '40 €' },
+      { duration: '45 Minuten (Massageliege)', price: '55 €' },
     ],
     imageId: '1544161512-6f4e8e2d8a9b',
-    image: '/img/ruecken-nacken-massage-neu.png',
+    image: '/RueckenNacken1.jpg',
   },
   {
     id: 'kalifornische-massage',
@@ -42,8 +42,8 @@ export const SERVICE_ITEMS: ServiceItem[] = [
     description:
       'Achtsame Ganzkörpermassage kombiniert mit Energiearbeit. Sanfte, fließende Bewegungen für tiefe Entspannung.',
     priceOptions: [
-      { duration: '1,5h', price: '100 €' },
-      { duration: '2h', price: '130 €' },
+      { duration: '90 Min', price: '100 €' },
+      { duration: '120 Min', price: '130 €' },
     ],
     imageId: '1540558880-7b0e9e8e9e8e',
     image: '/img/kalifornische-massage.png',
@@ -70,7 +70,7 @@ export const SERVICE_ITEMS: ServiceItem[] = [
       { duration: '45 Min', price: '55 €' },
     ],
     imageId: '1568575580762-1a2b3c4d5e6f',
-    image: '/img/fussmassage-neu.png',
+    image: '/Fussmassage2.jpg',
   },
   {
     id: 'individuelle-wellness',
@@ -79,7 +79,7 @@ export const SERVICE_ITEMS: ServiceItem[] = [
       'Maßgeschneidert auf Ihre Wünsche: Kopf, Hände, Füße oder Körpereinheiten – genau das, was Sie brauchen.',
     priceOptions: [{ duration: '60 Min', price: '70 €' }],
     imageId: '1600334085649-2b3c4d5e6f7a',
-    image: '/img/individuelle-wellness.png',
+    image: '/Kopfmassage.jpg',
   },
   {
     id: 'partnermassagekurs',
@@ -88,7 +88,7 @@ export const SERVICE_ITEMS: ServiceItem[] = [
       'Lernen Sie Techniken für zu Hause. Gemeinsam Zeit für Zweisamkeit – professionell angeleitet von Stefan Klemm.',
     priceOptions: [{ duration: '3,5h', price: '200 €' }],
     imageId: '1515377905703-3c4d5e6f7a8b',
-    image: '/img/partnermassage.png',
+    image: '/Partnermassage.jpg',
     isHighlight: true,
   },
 ]

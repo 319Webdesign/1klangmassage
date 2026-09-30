@@ -177,7 +177,7 @@ export default function DatenschutzPage() {
               <h2>6. Plugins und Tools</h2>
               <h3 className="mt-4">ALTCHA (Spam-Schutz)</h3>
               <p className="mt-2 leading-relaxed">
-                Diese Website nutzt ALTCHA, eine Open-Source-Lösung zum Schutz vor Spam und missbräuchlichen automatisierten Anfragen im Kontaktformular. Die Challenge wird auf unseren eigenen Servern erzeugt und die Antwort serverseitig geprüft. Es werden keine Ressourcen von Google reCAPTCHA geladen und keine Daten an Google oder andere externe CAPTCHA-Dienste übermittelt.
+                Diese Website nutzt ALTCHA, eine Open-Source-Lösung zum Schutz vor Spam und missbräuchlichen automatisierten Anfragen im Kontaktformular. Die Challenge wird auf unseren eigenen Servern erzeugt und die Antwort serverseitig geprüft. Für das Kontaktformular werden keine Ressourcen von Google reCAPTCHA geladen und keine Daten an Google oder andere externe CAPTCHA-Dienste übermittelt.
               </p>
               <p className="mt-3 leading-relaxed">
                 ALTCHA arbeitet ohne Tracking-Cookies und ohne Fingerprinting. Verarbeitet werden lediglich die für die Prüfung erforderlichen technischen Informationen der Challenge selbst. Die Verarbeitung erfolgt auf Grundlage unseres berechtigten Interesses am Schutz unserer Website vor Spam und Missbrauch (Art. 6 Abs. 1 lit. f DSGVO).
@@ -185,6 +185,11 @@ export default function DatenschutzPage() {
               <p className="mt-3 leading-relaxed">
                 Weitere Informationen zu ALTCHA finden Sie unter:{' '}
                 <a href="https://altcha.org/de/open-source-captcha/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">https://altcha.org/de/open-source-captcha/</a>.
+              </p>
+              <h3 className="mt-4">Google reCAPTCHA (Newsletter)</h3>
+              <p className="mt-2 leading-relaxed">
+                Die Newsletter-Anmeldung wird über den Dienst CleverReach abgewickelt. Dieses Anmeldeformular verlangt eine Sicherheitsprüfung mit Google reCAPTCHA. Dabei wird das Skript von Google geladen und die Antwort an Google übermittelt, damit CleverReach automatisierte Anmeldungen abweisen kann. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Die Verarbeitung erfolgt auf Grundlage unseres berechtigten Interesses am Schutz des Newsletter-Formulars vor Spam (Art. 6 Abs. 1 lit. f DSGVO). Weitere Informationen finden Sie in der Datenschutzerklärung von Google:{' '}
+                <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">https://policies.google.com/privacy?hl=de</a>.
               </p>
               <h3 className="mt-4">Google Maps</h3>
               <p className="mt-2 leading-relaxed">

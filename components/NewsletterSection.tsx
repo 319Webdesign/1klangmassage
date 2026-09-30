@@ -1,15 +1,46 @@
 'use client'
 
+import { useState } from 'react'
+import Script from 'next/script'
 import { Mail, Leaf } from 'lucide-react'
 
 const CLEVERREACH_FORM_ACTION = 'https://eu2.cleverreach.com/f/250480-246890/wcs/'
+const RECAPTCHA_SITE_KEY = '6Lfhcd0SAAAAAOBEHmAVEHJeRnrH8T7wPvvNzEPD'
+
+const CAPTCHA_ERROR_MESSAGE =
+  'Bitte bestätigen Sie die Sicherheitsprüfung und versuchen Sie es erneut.'
+
+declare global {
+  interface Window {
+    grecaptcha?: {
+      getResponse: () => string
+    }
+  }
+}
 
 export function NewsletterSection() {
+  const [errorMessage, setErrorMessage] = useState('')
+
+  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    const token = window.grecaptcha?.getResponse() ?? ''
+    if (!token.trim()) {
+      event.preventDefault()
+      setErrorMessage(CAPTCHA_ERROR_MESSAGE)
+      return
+    }
+
+    setErrorMessage('')
+  }
+
   return (
     <section
       id="newsletter"
       className="min-h-0 bg-sage-100 px-4 py-12 md:min-h-screen md:px-8 md:py-24 lg:px-12 xl:px-24"
     >
+      <Script
+        src="https://www.google.com/recaptcha/api.js?hl=de"
+        strategy="lazyOnload"
+      />
       <div className="mx-auto max-w-3xl">
         <div className="flex justify-center">
           <div className="relative flex h-14 w-14 items-center justify-center rounded-full bg-white/80 shadow-sm">
@@ -33,6 +64,7 @@ export function NewsletterSection() {
           action={CLEVERREACH_FORM_ACTION}
           method="POST"
           target="_blank"
+          onSubmit={handleSubmit}
           className="mt-8 space-y-5"
         >
           <div>
@@ -62,6 +94,16 @@ export function NewsletterSection() {
               verarbeitet werden.
             </span>
           </label>
+          <div
+            className="g-recaptcha"
+            data-sitekey={RECAPTCHA_SITE_KEY}
+            aria-label="Sicherheitsprüfung"
+          />
+          {errorMessage && (
+            <p className="text-site-body rounded-lg bg-red-50 px-4 py-3 font-medium text-red-700">
+              {errorMessage}
+            </p>
+          )}
           <button
             type="submit"
             className="text-site-body min-h-[48px] w-full rounded-xl bg-sage-600 px-6 py-4 font-medium text-white shadow-sm transition-colors duration-300 hover:bg-gold-500 focus:outline-none focus:ring-2 focus:ring-sage-500 focus:ring-offset-2 focus:ring-offset-transparent"

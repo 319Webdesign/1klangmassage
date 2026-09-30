@@ -50,6 +50,19 @@ export default function CookieRichtlinienPage() {
               <p className="mt-2 leading-relaxed">
                 Zum Schutz des Kontaktformulars vor Spam und automatisierten Anfragen nutzen wir ALTCHA, eine selbst gehostete Open-Source-Lösung. Die Sicherheitsprüfung wird auf unseren eigenen Servern erzeugt und geprüft. ALTCHA setzt dabei keine Cookies, verwendet kein Tracking und übermittelt keine Daten an Google oder andere externe CAPTCHA-Dienste.
               </p>
+              <h3 className="mt-4 font-medium text-brown-600">Google reCAPTCHA (Newsletter)</h3>
+              <p className="mt-2 leading-relaxed">
+                Die Newsletter-Anmeldung läuft über CleverReach und enthält die von diesem Formular vorgeschriebene Sicherheitsprüfung mit Google reCAPTCHA. Beim Laden der Prüfung können Cookies von Google gesetzt und technische Daten an Google übermittelt werden. Informationen zur Datenverarbeitung durch Google entnehmen Sie der{' '}
+                <a
+                  href="https://policies.google.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-500 hover:underline"
+                >
+                  Google-Datenschutzerklärung
+                </a>
+                .
+              </p>
               <h3 className="mt-4 font-medium text-brown-600">Google Maps</h3>
               <p className="mt-2 leading-relaxed">
                 Für die Standortanzeige auf unserer Kontaktseite binden wir Google Maps ein. Beim Aufruf der Karte können Cookies von Google gesetzt werden. Informationen zur Datenverarbeitung durch Google Maps entnehmen Sie der{' '}

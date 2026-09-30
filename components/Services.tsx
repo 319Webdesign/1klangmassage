@@ -59,10 +59,10 @@ export function Services() {
                 {service.priceOptions.map((opt) => (
                   <div
                     key={`${opt.duration}-${opt.price}`}
-                    className="text-site-body flex items-center justify-between font-medium text-brown-600"
+                    className="text-site-body flex items-center justify-between gap-3 font-medium text-brown-600"
                   >
                     <span>{opt.duration}</span>
-                    <span className="font-bold">{opt.price}</span>
+                    <span className="shrink-0 font-bold">{opt.price}</span>
                   </div>
                 ))}
               </div>
