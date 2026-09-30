@@ -6,6 +6,7 @@ import { FeatureSection } from '@/components/FeatureSection'
 import { Services } from '@/components/Services'
 import { CtaSection } from '@/components/CtaSection'
 import { NewsletterSection } from '@/components/NewsletterSection'
+import { GallerySection } from '@/components/GallerySection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
 import { FaqSection } from '@/components/FaqSection'
 import { Footer } from '@/components/Footer'
@@ -99,6 +100,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <GallerySection />
 
       <TestimonialsSection />
 

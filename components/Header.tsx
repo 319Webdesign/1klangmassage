@@ -9,6 +9,7 @@ const navLinks = [
   { href: '/aktuelles', label: 'Aktuelles' },
   { href: '/#leistungen', label: 'Leistungen' },
   { href: '/#ueber-mich', label: 'Über mich' },
+  { href: '/#praxis', label: 'Praxis' },
   { href: '/#kundenstimmen', label: 'Kundenstimmen' },
   { href: '/#kontakt', label: 'Kontakt' },
 ]
@@ -41,9 +42,9 @@ export function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="text-site-lead hidden gap-6 font-semibold text-white/90 md:flex">
+        <nav className="hidden gap-4 text-lg font-semibold leading-snug text-white/90 lg:flex xl:gap-6 xl:text-2xl">
           {navLinks.map(({ href, label }) => (
-            <Link key={href} href={href} className="hover:text-white">
+            <Link key={href} href={href} className="whitespace-nowrap hover:text-white">
               {label}
             </Link>
           ))}
@@ -53,7 +54,7 @@ export function Header() {
         <button
           type="button"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="flex h-10 w-10 items-center justify-center rounded-lg text-white transition-colors hover:bg-sage-500/50 md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-lg text-white transition-colors hover:bg-sage-500/50 lg:hidden"
           aria-label={isMenuOpen ? 'Menü schließen' : 'Menü öffnen'}
           aria-expanded={isMenuOpen}
         >
@@ -67,7 +68,7 @@ export function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`absolute left-0 right-0 top-16 border-b border-sage-700/50 bg-sage-600 shadow-lg transition-all duration-200 md:hidden ${
+        className={`absolute left-0 right-0 top-16 border-b border-sage-700/50 bg-sage-600 shadow-lg transition-all duration-200 lg:hidden ${
           isMenuOpen
             ? 'visible opacity-100'
             : 'invisible pointer-events-none opacity-0'
